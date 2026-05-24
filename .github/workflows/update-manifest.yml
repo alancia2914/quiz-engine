@@ -1,4 +1,3 @@
-```yaml
 name: Update module manifest
 
 on:
@@ -18,7 +17,9 @@ jobs:
       - name: Generate manifest (preserve categories)
         run: |
           cd data
+          # Build new modules array from filenames
           MODULES=$(ls *.json | grep -v manifest.json | sed 's/\.json$//' | jq -Rn '[inputs]')
+          # If manifest exists and has categories, preserve them
           if [ -f manifest.json ] && jq -e '.categories' manifest.json > /dev/null 2>&1; then
             CATEGORIES=$(jq '.categories' manifest.json)
             jq -n --argjson modules "$MODULES" --argjson categories "$CATEGORIES" \
@@ -34,4 +35,3 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/manifest.json
           git diff --cached --quiet || (git commit -m "chore: auto-update module manifest" && git push)
-```
