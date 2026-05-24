@@ -1,0 +1,365 @@
+{
+  "id": "governance-foundations",
+  "title": "Governance Foundations",
+  "description": "Core governance concepts, vocabulary, and the Australian framework",
+  "questions": [
+    {
+      "id": "gov-001",
+      "type": "mcq",
+      "question": "What is the fundamental distinction between governance and management?",
+      "options": [
+        "Governance is strategic; management is operational",
+        "Governance is direction-setting and oversight; management is execution",
+        "Governance is for the board; management is for shareholders",
+        "Governance is compliance; management is performance"
+      ],
+      "correct": 1,
+      "explanation": "Governance sets direction, provides oversight, and holds people accountable. Management executes within that direction. Option A is tempting but incomplete: governance is more than 'strategic' (it includes oversight and accountability). Option D is a common misconception. Good governance includes BOTH conformance (compliance/oversight) and performance (strategy/value creation)."
+    },
+    {
+      "id": "gov-002",
+      "type": "mcq",
+      "question": "What does 'if not, why not' refer to in Australian corporate governance?",
+      "options": [
+        "A requirement to explain all board decisions publicly",
+        "The comply-or-explain approach to the ASX CGC Principles",
+        "A legal obligation to justify executive remuneration",
+        "APRA's enforcement standard for prudential breaches"
+      ],
+      "correct": 1,
+      "explanation": "The ASX Corporate Governance Council's Principles and Recommendations are not mandatory rules. They're principles-based: listed entities either comply with a recommendation, or explain why they chose not to. This approach recognises that good governance isn't one-size-fits-all. Contrast this with APRA's prudential standards (like CPS 510), which ARE mandatory for regulated entities. The 'if not, why not' philosophy underpins the flexibility of the Australian model."
+    },
+    {
+      "id": "gov-003",
+      "type": "mcq",
+      "question": "In the IIA Three Lines Model, what is the role of the second line?",
+      "options": [
+        "Day-to-day risk management and control",
+        "Oversight, monitoring, and compliance functions",
+        "Independent assurance (internal audit)",
+        "External audit and regulatory review"
+      ],
+      "correct": 1,
+      "explanation": "The Three Lines Model (IIA, updated 2020): First line = operational management, owns and manages risk in day-to-day operations. Second line = oversight functions like compliance, risk management, and quality, providing expertise, monitoring, and challenge. Third line = internal audit, giving independent assurance to the governing body. External audit sits outside the model entirely. When someone says 'that's a second-line function' they mean it monitors and challenges the first line without owning the risk directly."
+    },
+    {
+      "id": "gov-004",
+      "type": "mcq",
+      "question": "What are 'reserved matters' in governance?",
+      "options": [
+        "Topics that cannot be discussed outside the boardroom",
+        "Decisions the board retains for itself and will not delegate",
+        "Confidential information protected by privilege",
+        "Matters reserved for shareholder approval only"
+      ],
+      "correct": 1,
+      "explanation": "Reserved matters define the line between what the board decides and what it delegates to management. Typical reserved matters include: setting strategy, approving risk appetite, major capital expenditure, CEO appointment and removal, dividend policy, and M&A transactions above a threshold. The delegation framework then specifies everything management CAN decide without board approval. Clear reserved matters prevent two failure modes: boards micromanaging (too little delegation) or boards being rubber stamps (too much)."
+    },
+    {
+      "id": "gov-005",
+      "type": "mcq",
+      "question": "What does 'noses in, fingers out' describe?",
+      "options": [
+        "The audit committee's relationship with external auditors",
+        "How regulators should interact with regulated entities",
+        "The board's role: deeply informed but not operationally involved",
+        "Management's duty to report upward without filtering"
+      ],
+      "correct": 2,
+      "explanation": "This phrase captures the governance/management boundary in practice. 'Noses in' means directors should be deeply curious, ask probing questions, and understand what's happening in the business. 'Fingers out' means they shouldn't make operational decisions, direct staff, or get involved in execution. A board that is 'noses out' is failing at oversight. A board that is 'fingers in' is undermining management authority and muddying accountability."
+    },
+    {
+      "id": "gov-006",
+      "type": "mcq",
+      "question": "What is a 'risk appetite statement'?",
+      "options": [
+        "A regulatory filing listing all material risks",
+        "A board-approved articulation of how much risk the entity is willing to take",
+        "An actuarial report on potential loss scenarios",
+        "A management document listing risk mitigation actions"
+      ],
+      "correct": 1,
+      "explanation": "The risk appetite statement (RAS) is the board's expression of the types and amounts of risk it's willing to accept in pursuit of strategic objectives. It sits at the intersection of governance and risk management: setting appetite is a governance function (the board decides); operating within appetite is a management function (executives execute). Under CPS 220, APRA-regulated entities must have a board-approved RAS. Breaching risk appetite is a significant governance escalation event."
+    },
+    {
+      "id": "gov-007",
+      "type": "matching",
+      "question": "Match each governance concept to its meaning:",
+      "pairs": [
+        {"left": "Accountability", "right": "Cannot be delegated; the board remains on the hook"},
+        {"left": "Responsibility", "right": "Can be delegated to management for execution"},
+        {"left": "Conformance", "right": "Compliance and oversight (backward-looking)"},
+        {"left": "Performance", "right": "Strategy and value creation (forward-looking)"}
+      ],
+      "explanation": "The accountability/responsibility distinction is foundational. A board can ask the CEO to manage cyber risk (delegating responsibility), but remains accountable to shareholders and regulators for the outcome. The conformance/performance duality comes from Bob Tricker's governance framework: boards must do both. A conformance-only board is passive and box-ticking. A performance-only board neglects oversight. The best boards balance challenge (conformance) with support (performance)."
+    },
+    {
+      "id": "gov-008",
+      "type": "matching",
+      "question": "Match each line of the IIA Three Lines Model to its function:",
+      "pairs": [
+        {"left": "First line", "right": "Operational management, owns and manages risk directly"},
+        {"left": "Second line", "right": "Oversight functions: compliance, risk management, quality"},
+        {"left": "Third line", "right": "Independent assurance via internal audit"},
+        {"left": "Governing body", "right": "Sets direction, exercises oversight, holds management accountable"}
+      ],
+      "explanation": "The 2020 update dropped 'of Defence' from the name deliberately. It's not about defending against risk like a fortress; it's about creating value through effective governance. The governing body (board) sits above all three lines, receiving assurance from each. Key principle: the third line must be independent of management to be credible. If internal audit reports to the CFO rather than the board/audit committee, that independence is compromised."
+    },
+    {
+      "id": "gov-009",
+      "type": "mcq",
+      "question": "What governance risk does 'information asymmetry' describe?",
+      "options": [
+        "Shareholders knowing more than the board",
+        "The board only knowing what management chooses to tell it",
+        "Regulators having less data than the entities they supervise",
+        "External auditors lacking access to internal documents"
+      ],
+      "correct": 1,
+      "explanation": "Information asymmetry is arguably the central problem of governance. The board is supposed to oversee management, but management controls the information flow. Good governance addresses this through: independent internal audit (third line reporting directly to the board), whistleblower channels, board-commissioned independent reviews, direct access to senior management below the CEO, and 'management out' sessions. Your 'Silence as Governance' article implicitly addresses this: when problems aren't escalated, the board's information asymmetry widens."
+    },
+    {
+      "id": "gov-010",
+      "type": "mcq",
+      "question": "APRA's CPS 510 is a:",
+      "options": [
+        "Prudential practice guide (advisory)",
+        "Prudential standard (mandatory)",
+        "Information paper (guidance)",
+        "Ministerial direction (legislative)"
+      ],
+      "correct": 1,
+      "explanation": "APRA's hierarchy of regulatory instruments matters: Prudential Standards (CPS/SPS/GPS/HPS) are mandatory and legally enforceable. Prudential Practice Guides (PPGs/SPGs) are advisory, explaining how APRA expects entities to meet the standards. Information papers provide further guidance on specific topics. CPS 510 Governance sets mandatory requirements for board composition, committees, independence, renewal, and conflicts of interest. Non-compliance can result in enforcement action."
+    },
+    {
+      "id": "gov-011",
+      "type": "mcq",
+      "question": "Agency theory explains governance as a solution to which core problem?",
+      "options": [
+        "Boards lacking technical expertise to oversee complex businesses",
+        "The principal-agent problem: owners can't be sure managers act in owners' interests",
+        "Shareholders being too dispersed to coordinate collective action",
+        "Regulators imposing excessive compliance burdens on companies"
+      ],
+      "correct": 1,
+      "explanation": "Agency theory (Jensen & Meckling, 1976) frames the relationship between shareholders (principals) and executives (agents). The problem: agents may pursue self-interest—empire-building, excessive pay, risk aversion—rather than maximising shareholder value. Governance mechanisms like independent boards, performance-linked pay, and external audit exist to align agent behaviour with principal interests. When a senior leader says 'we have an agency problem,' they mean incentives are misaligned between those who own and those who manage."
+    },
+    {
+      "id": "gov-012",
+      "type": "mcq",
+      "question": "How does stewardship theory differ from agency theory in its view of management?",
+      "options": [
+        "It argues managers are inherently self-serving and need constant monitoring",
+        "It assumes managers are intrinsically motivated to act as stewards of the organisation",
+        "It applies only to not-for-profit and public sector entities",
+        "It eliminates the need for a board of directors entirely"
+      ],
+      "correct": 1,
+      "explanation": "Stewardship theory (Donaldson & Davis, 1991) offers the alternative lens: managers are professionals who gain satisfaction from organisational success, not just personal enrichment. Under this view, governance should empower and enable executives rather than primarily constrain them. In practice, most boards operate with a blend—trusting management as stewards while maintaining oversight mechanisms from agency theory. The best governance cultures combine trust with verification."
+    },
+    {
+      "id": "gov-013",
+      "type": "mcq",
+      "question": "Stakeholder theory argues that the board's primary obligation is to:",
+      "options": [
+        "Maximise short-term shareholder returns above all else",
+        "Balance the interests of all groups affected by the organisation's activities",
+        "Prioritise employee welfare over investor returns",
+        "Comply with every stakeholder request equally"
+      ],
+      "correct": 1,
+      "explanation": "Stakeholder theory (Freeman, 1984) challenges shareholder primacy by arguing that companies exist within a web of relationships—employees, customers, communities, suppliers, environment—and long-term value creation requires balancing these interests. In Australia, s181 of the Corporations Act requires directors to act in the best interests of the company, which courts have interpreted broadly enough to encompass stakeholder considerations. When executives talk about 'stakeholder capitalism,' this is the theory underpinning it."
+    },
+    {
+      "id": "gov-014",
+      "type": "matching",
+      "question": "Match each governance theory to its core assumption about management:",
+      "pairs": [
+        {"left": "Agency theory", "right": "Managers are self-interested; governance must monitor and control"},
+        {"left": "Stewardship theory", "right": "Managers are intrinsically motivated to serve the organisation"},
+        {"left": "Stakeholder theory", "right": "The firm must balance multiple legitimate interests, not just shareholders"},
+        {"left": "Shareholder primacy", "right": "The sole purpose of the corporation is to maximise shareholder wealth"}
+      ],
+      "explanation": "These four perspectives shape how boards think about their role. Agency theory drives oversight mechanisms (audit committees, incentive alignment). Stewardship theory drives empowerment and trust-based cultures. Stakeholder theory drives ESG integration and broader purpose. Shareholder primacy (Friedman, 1970) is increasingly challenged but remains influential in how markets assess performance. Sophisticated governance professionals draw from all four depending on context."
+    },
+    {
+      "id": "gov-015",
+      "type": "mcq",
+      "question": "ASX Corporate Governance Principle 1 states that a listed entity should:",
+      "options": [
+        "Have an effective audit committee",
+        "Lay solid foundations for management and oversight",
+        "Instil a culture of acting lawfully, ethically, and responsibly",
+        "Safeguard the integrity of corporate reports"
+      ],
+      "correct": 1,
+      "explanation": "Principle 1 is 'Lay solid foundations for management and oversight'—it's about clearly delineating board and management roles, conducting appropriate director checks, having written agreements with directors, and establishing a proper company secretary function. Principle 3 covers culture and ethics, Principle 4 covers audit integrity, and Principle 2 covers board structure. Knowing the principles by number signals you've done your homework in governance conversations."
+    },
+    {
+      "id": "gov-016",
+      "type": "matching",
+      "question": "Match each ASX Corporate Governance Principle to its focus area:",
+      "pairs": [
+        {"left": "Principle 2", "right": "Structure the board to be effective and add value"},
+        {"left": "Principle 3", "right": "Instil a culture of acting lawfully, ethically, and responsibly"},
+        {"left": "Principle 7", "right": "Recognise and manage risk"},
+        {"left": "Principle 8", "right": "Remunerate fairly and responsibly"}
+      ],
+      "explanation": "The 8 ASX CGC Principles provide the architecture of good governance for listed entities. Principle 2 (board structure) covers independence, skills matrices, and diversity. Principle 3 (culture/ethics) was strengthened in the 4th edition to elevate culture alongside codes of conduct. Principle 7 (risk) expects a risk committee or equivalent and a risk management framework. Principle 8 (remuneration) links pay to performance and requires clawback mechanisms. These principles flow logically from foundations (1) through to remuneration (8)."
+    },
+    {
+      "id": "gov-017",
+      "type": "mcq",
+      "question": "A key change in the ASX CGC Principles 4th edition (2019) was:",
+      "options": [
+        "Making all eight principles legally mandatory for the first time",
+        "Elevating organisational culture, social licence, and stakeholder focus",
+        "Removing the requirement for an independent board chair",
+        "Eliminating the 'if not, why not' reporting approach"
+      ],
+      "correct": 1,
+      "explanation": "The 4th edition (February 2019) significantly elevated 'soft' governance: Principle 3 was rewritten to focus on culture, values, and social licence to operate. It also introduced stronger expectations around whistleblower policies, anti-bribery, and stakeholder engagement. The 'if not, why not' approach was retained—it remains the hallmark of the Australian model. These changes reflected post-Royal Commission expectations that boards actively shape and monitor organisational culture, not just strategy and compliance."
+    },
+    {
+      "id": "gov-018",
+      "type": "mcq",
+      "question": "The UK Corporate Governance Code differs from Australian ASX Principles primarily in that it:",
+      "options": [
+        "Is legally enforceable with criminal penalties for non-compliance",
+        "Applies a 'comply or explain' approach to premium-listed companies on the London Stock Exchange",
+        "Only applies to financial services firms",
+        "Does not address board independence or diversity"
+      ],
+      "correct": 1,
+      "explanation": "The UK Code (issued by the Financial Reporting Council, now the Audit, Reporting and Governance Authority) uses 'comply or explain'—functionally similar to Australia's 'if not, why not.' The key difference is jurisdiction and emphasis: the UK Code has been more prescriptive on workforce engagement mechanisms (workforce director, formal advisory panel, or designated NED) and has led globally on Section 172 stakeholder duties. Both systems are principles-based, not rules-based like much of the US approach under SOX."
+    },
+    {
+      "id": "gov-019",
+      "type": "mcq",
+      "question": "The OECD Principles of Corporate Governance are best described as:",
+      "options": [
+        "Binding international law that all member countries must enact",
+        "An internationally agreed benchmark used to assess and improve governance frameworks",
+        "A rating system that scores individual companies on governance quality",
+        "A set of rules exclusively for state-owned enterprises"
+      ],
+      "correct": 1,
+      "explanation": "The OECD Principles (first issued 1999, most recently revised 2023 as the G20/OECD Principles) are the global reference point for policymakers, regulators, and stock exchanges designing governance frameworks. They're non-binding but hugely influential—Australia's ASX CGC Principles align with them. The 2023 revision added emphasis on sustainability, digital transformation, and concentrated ownership structures. When someone references 'international best practice' in governance, they usually mean the OECD Principles."
+    },
+    {
+      "id": "gov-020",
+      "type": "mcq",
+      "question": "What is the company secretary's governance role?",
+      "options": [
+        "An administrative assistant who takes minutes for the board",
+        "A governance professional accountable to the board for governance processes, compliance, and director support",
+        "The CEO's delegate for managing board relationships",
+        "An external adviser engaged only during AGM season"
+      ],
+      "correct": 1,
+      "explanation": "The company secretary is a governance officer, not a typist. Under ASX Principle 1, the company secretary is accountable directly to the board (through the chair) for advising on governance matters, managing board processes, ensuring compliance with the Corporations Act and Listing Rules, and supporting directors' access to information. Under s188 of the Corporations Act, they have personal liability for certain lodgements. Sophisticated organisations treat the company secretary as a senior governance leader with direct board access."
+    },
+    {
+      "id": "gov-021",
+      "type": "mcq",
+      "question": "Under the Corporations Act 2001, what is the 'business judgment rule' (s180(2))?",
+      "options": [
+        "A rule preventing directors from making any decision that results in a loss",
+        "A safe harbour protecting directors who make informed, good-faith decisions in the company's best interest",
+        "A requirement that all business decisions be approved by shareholders",
+        "An ASIC guideline for valuing businesses during acquisitions"
+      ],
+      "correct": 1,
+      "explanation": "The business judgment rule under s180(2) provides directors a defence against breach of the duty of care and diligence (s180(1)). It applies when a director makes a judgment in good faith, for a proper purpose, without material personal interest, informs themselves to the extent reasonably appropriate, and rationally believes the judgment is in the company's best interests. It recognises that business involves risk and protects directors who follow proper process even when outcomes are poor. It does NOT protect against dishonesty or recklessness."
+    },
+    {
+      "id": "gov-022",
+      "type": "matching",
+      "question": "Match each Corporations Act section to the director duty it imposes:",
+      "pairs": [
+        {"left": "s180", "right": "Care and diligence (includes the business judgment rule)"},
+        {"left": "s181", "right": "Good faith and proper purpose (act in the company's best interests)"},
+        {"left": "s182", "right": "Not to improperly use position for personal advantage"},
+        {"left": "s183", "right": "Not to improperly use information obtained as a director"}
+      ],
+      "explanation": "Sections 180–184 of the Corporations Act are the core director duty provisions. Breach of s180 or s181 carries civil penalties. Sections 182–183 carry both civil and criminal penalties (the criminal versions are in s184). D&O insurance typically covers defence costs and some civil liabilities, but cannot indemnify against criminal penalties or dishonest conduct. When governance professionals say 'you've got a s180 issue,' they mean someone may not have exercised reasonable care and diligence in making a decision."
+    },
+    {
+      "id": "gov-023",
+      "type": "mcq",
+      "question": "In a governance maturity model, an organisation at the 'reactive' stage typically:",
+      "options": [
+        "Has governance fully embedded in culture with continuous improvement cycles",
+        "Responds to governance failures after they occur, with minimal proactive frameworks",
+        "Has documented policies and committees but inconsistent implementation",
+        "Benchmarks against international best practice and reports transparently"
+      ],
+      "correct": 1,
+      "explanation": "Governance maturity models typically describe four stages: Reactive (ad hoc, responds only after problems), Developing (building frameworks, early-stage policies), Established (consistent processes, clear accountabilities, functioning committees), and Embedded (governance is cultural, self-reinforcing, continuously improving). Most organisations sit between Developing and Established. The value of the model is that it gives boards language to discuss their governance journey without being defensive—'we're developing, here's our roadmap to established.'"
+    },
+    {
+      "id": "gov-024",
+      "type": "mcq",
+      "question": "What is 'double materiality' in the context of ESG governance?",
+      "options": [
+        "Requiring both internal audit and external audit to assess ESG risks",
+        "Assessing both how ESG issues affect the company AND how the company affects society and environment",
+        "Publishing ESG reports in both financial statements and a separate sustainability report",
+        "Requiring materiality assessments to be approved by two separate board committees"
+      ],
+      "correct": 1,
+      "explanation": "Double materiality (central to the EU's CSRD and increasingly influential in Australia via ISSB adoption) means considering two directions of impact: 'outside-in' (how climate/social issues create financial risks for the company) AND 'inside-out' (how the company's activities impact the environment and society). Traditional financial materiality only looks outside-in. Double materiality expands the governance lens and is reshaping how boards think about risk, strategy, and reporting obligations."
+    },
+    {
+      "id": "gov-025",
+      "type": "mcq",
+      "question": "'Tone at the top' in governance refers to:",
+      "options": [
+        "The formal communications strategy approved by the board",
+        "The ethical culture and behavioural expectations set by the board and senior executives",
+        "The chairperson's opening remarks at each board meeting",
+        "The organisation's brand messaging to external stakeholders"
+      ],
+      "correct": 1,
+      "explanation": "Tone at the top describes how board and executive behaviour signals what's truly valued—beyond what's written in policies. If leaders tolerate ethical shortcuts when results are good, that IS the real tone regardless of the values statement on the wall. Governance professionals also talk about 'tone in the middle' (how middle management translates or distorts senior messaging) and 'tone at the bottom' (what actually happens at the frontline). The Royal Commission exposed catastrophic gaps between stated tone and lived culture."
+    },
+    {
+      "id": "gov-026",
+      "type": "mcq",
+      "question": "A governance calendar is best described as:",
+      "options": [
+        "A list of public holidays when the board does not meet",
+        "A structured annual cycle of board and committee activities aligned to reporting, strategy, and compliance deadlines",
+        "The schedule of AGM dates for all ASX-listed companies",
+        "A project timeline for implementing a new governance framework"
+      ],
+      "correct": 1,
+      "explanation": "The governance calendar maps the board's annual rhythm: when financial results are reviewed, when strategy is set, when risk appetite is refreshed, when board evaluations occur, when AGM preparation begins, and when regulatory lodgements are due. It ensures nothing falls through the cracks and prevents everything piling into one meeting. A well-designed governance calendar balances conformance activities (audit, compliance, risk reviews) with performance activities (strategy days, market scanning, innovation deep-dives)."
+    },
+    {
+      "id": "gov-027",
+      "type": "mcq",
+      "question": "Under Australian whistleblower protections (Corporations Act Part 9.4AAA), which statement is correct?",
+      "options": [
+        "Only employees can qualify as eligible whistleblowers",
+        "Eligible whistleblowers include current and former officers, employees, suppliers, and their relatives",
+        "Whistleblower protections only apply if the disclosure leads to a prosecution",
+        "Companies may choose whether to have a whistleblower policy"
+      ],
+      "correct": 1,
+      "explanation": "Australia's whistleblower regime (strengthened in 2019) is broad: eligible whistleblowers include officers, employees, contractors, suppliers, associates, and relatives of any of these. Protections apply regardless of whether the report leads to action—it's the act of disclosure in good faith that triggers protection. Public companies and large proprietary companies MUST have a whistleblower policy. From a governance perspective, the board should receive de-identified reports on whistleblower activity to identify systemic issues without compromising confidentiality."
+    },
+    {
+      "id": "gov-028",
+      "type": "matching",
+      "question": "Match each governance concept to its practical meaning:",
+      "pairs": [
+        {"left": "Related party transaction", "right": "A dealing where a director or connected person has a material interest, requiring disclosure and often shareholder approval"},
+        {"left": "Governance vs compliance", "right": "Governance is the system of direction and oversight; compliance is one element within it focused on adherence to rules"},
+        {"left": "AGM and shareholder rights", "right": "The annual meeting where shareholders vote on directors, remuneration reports, and special resolutions"},
+        {"left": "D&O insurance", "right": "Directors and Officers liability insurance covering defence costs and some civil liabilities, but not dishonest conduct"}
+      ],
+      "explanation": "These concepts come up frequently in boardrooms. Related party transactions (Chapter 2E, Corporations Act) require governance controls because conflicts of interest undermine trust. The governance/compliance distinction matters because compliance is necessary but not sufficient—you can be fully compliant and still poorly governed if there's no strategic direction or accountability culture. AGMs are the primary mechanism for shareholder democracy. D&O insurance exists because without it, qualified people wouldn't serve on boards given personal liability exposure under s180–184."
+    }
+  ]
+}

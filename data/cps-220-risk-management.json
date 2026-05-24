@@ -1,0 +1,398 @@
+{
+  "id": "cps-220-risk-management",
+  "title": "CPS 220: Risk Management",
+  "description": "Risk management framework, CRO role, risk appetite, and SPS 220 for super",
+  "questions": [
+    {
+      "id": "cps220-001",
+      "type": "matching",
+      "question": "Match each CPS 220 component with its description:",
+      "pairs": [
+        {
+          "left": "Risk Appetite Statement (RAS)",
+          "right": "Board-approved articulation of the risk the entity is willing to accept"
+        },
+        {
+          "left": "Risk Management Strategy (RMS)",
+          "right": "Documents the approach to managing risk across the entity"
+        },
+        {
+          "left": "Risk management declaration",
+          "right": "Annual attestation signed by Board Chair and Risk Committee Chair"
+        },
+        {
+          "left": "Comprehensive review",
+          "right": "Every 3 years by operationally independent persons"
+        }
+      ],
+      "explanation": "CPS 220 establishes a layered risk governance architecture. The RAS sets boundaries (board's risk appetite), the RMS describes how you'll operate within those boundaries, the annual declaration forces accountability (both the Board Chair and Risk Committee Chair must sign), and the triennial comprehensive review by independent persons ensures the framework doesn't become stale or captured. Together, these create a cycle of setting, managing, attesting, and independently verifying risk governance."
+    },
+    {
+      "id": "cps220-002",
+      "type": "mcq",
+      "question": "Under CPS 220, what are the requirements for the Chief Risk Officer (CRO)?",
+      "options": [
+        "Must be independent from business lines, cannot hold CEO/CFO/Appointed Actuary/Head of Internal Audit roles, reports directly to CEO with unfettered board access",
+        "Must be a board member with voting rights on all risk decisions",
+        "Can combine the CRO role with CFO if the entity has less than $10 billion in assets",
+        "Must report only to the Risk Committee with no management reporting line"
+      ],
+      "correct": 0,
+      "explanation": "CPS 220 is very specific about CRO independence: they must be separate from business lines and cannot simultaneously be CEO, CFO, Appointed Actuary, or Head of Internal Audit. The dual reporting structure — to the CEO operationally, with unfettered access to the board — is designed to ensure the CRO has both organisational clout and independence. 'Unfettered access' means no one can prevent the CRO from raising concerns directly with directors."
+    },
+    {
+      "id": "cps220-003",
+      "type": "mcq",
+      "question": "Under CPS 220, within what timeframe must an entity notify APRA of a significant breach of, or material deviation from, the risk management framework?",
+      "options": [
+        "24 hours",
+        "72 hours",
+        "10 business days",
+        "20 business days"
+      ],
+      "correct": 2,
+      "explanation": "CPS 220 requires notification to APRA within 10 business days of a significant breach or material deviation from the risk management framework. This is longer than CPS 230's incident notifications because framework breaches are typically systemic issues (like discovering your RAS hasn't been updated, or a control has been consistently bypassed) rather than acute events. The 10-day window gives entities time to understand the scope before reporting, but not so long that APRA is left in the dark."
+    },
+    {
+      "id": "cps220-004",
+      "type": "mcq",
+      "question": "How does SPS 220 Risk Management differ from CPS 220 in its application to RSE licensees?",
+      "options": [
+        "SPS 220 has identical requirements to CPS 220 with no differences",
+        "SPS 220 incorporates super-specific obligations including the requirement to act in the best financial interests of beneficiaries",
+        "SPS 220 only applies to default MySuper products",
+        "SPS 220 replaces CPS 220 entirely for super funds"
+      ],
+      "correct": 1,
+      "explanation": "SPS 220 tailors the risk management framework for superannuation by embedding the 'best financial interests of beneficiaries' duty. While CPS 220 provides the generic cross-industry risk framework, SPS 220 recognises that RSE licensees are fiduciaries managing other people's retirement savings. Risk decisions must be assessed through the lens of member outcomes — not just entity survival. SPS 220 works alongside SPS 515 (Strategic Planning and Member Outcomes) to ensure risk management serves members, not just institutional interests."
+    },
+    {
+      "id": "cps220-005",
+      "type": "matching",
+      "question": "Match each component of the risk management framework with its function:",
+      "pairs": [
+        {
+          "left": "Structures",
+          "right": "Organisational arrangements including committees, reporting lines, and governance bodies"
+        },
+        {
+          "left": "Policies",
+          "right": "Documented rules and limits that set boundaries for risk-taking activities"
+        },
+        {
+          "left": "Processes",
+          "right": "Procedures for identifying, measuring, monitoring, and controlling risks"
+        },
+        {
+          "left": "People",
+          "right": "Skilled staff with clear accountability and authority for risk management"
+        }
+      ],
+      "explanation": "CPS 220 defines the risk management framework through four pillars: structures, policies, processes, and people. This mirrors the 'three lines of defence' model but goes further by explicitly requiring that each element be documented, board-approved, and subject to periodic review. The 'people' dimension connects to CPS 520 (Fit and Proper) requirements — having the right framework is meaningless without competent individuals to operate it."
+    },
+    {
+      "id": "cps220-006",
+      "type": "mcq",
+      "question": "Which of the following must a Risk Appetite Statement (RAS) convey under CPS 220?",
+      "options": [
+        "Only the overall risk appetite of the institution as a single qualitative statement",
+        "The risk appetite, risk tolerances for each material risk, the process for setting tolerances, how compliance is monitored, and timing of reviews",
+        "A quantitative dollar-value limit for each product line offered by the institution",
+        "A list of all risks the institution has experienced in the prior financial year"
+      ],
+      "correct": 1,
+      "explanation": "The RAS under CPS 220 is a comprehensive document, not a vague aspirational statement. It must articulate the board's overall risk appetite (degree of risk prepared to accept in pursuing objectives), set specific risk tolerances for each material risk, explain how those tolerances are established, describe how ongoing compliance is monitored, and specify when the RAS will be reviewed. This layered structure ensures the RAS is both a strategic compass and an operational control tool."
+    },
+    {
+      "id": "cps220-007",
+      "type": "mcq",
+      "question": "What is the distinction between 'risk appetite' and 'risk tolerance' in CPS 220 terminology?",
+      "options": [
+        "They are interchangeable terms used for different audiences — board vs management",
+        "Risk appetite is the degree of risk the entity is prepared to accept; risk tolerance is the maximum level of risk acceptable for each material risk",
+        "Risk appetite applies to credit risk only; risk tolerance applies to operational risk only",
+        "Risk appetite is set annually; risk tolerance is set every three years"
+      ],
+      "correct": 1,
+      "explanation": "CPS 220 draws a deliberate distinction: risk appetite is the high-level, board-determined degree of risk the entity is willing to accept in pursuit of its strategic objectives — essentially a philosophical position. Risk tolerance is the granular, measurable maximum acceptable level for each material risk category. Think of appetite as 'how hungry are we for risk overall?' and tolerance as 'what's the specific limit on this particular dish?' The RAS must contain both."
+    },
+    {
+      "id": "cps220-008",
+      "type": "matching",
+      "question": "Match each required element of the Risk Management Strategy (RMS) with its description:",
+      "pairs": [
+        {
+          "left": "Material risk descriptions",
+          "right": "Identify and describe each material risk the entity faces"
+        },
+        {
+          "left": "Policy framework",
+          "right": "List the policies for managing each material risk"
+        },
+        {
+          "left": "Risk function role",
+          "right": "Summarise responsibilities, authority, and reporting of the risk management function"
+        },
+        {
+          "left": "Governance relationships",
+          "right": "Describe how the risk function interacts with internal audit and other control functions"
+        },
+        {
+          "left": "Risk culture approach",
+          "right": "Outline how the entity instils an appropriate risk culture"
+        }
+      ],
+      "explanation": "The RMS is the operational blueprint that translates the RAS into action. By requiring entities to describe each material risk, list their policies, summarise the risk function, map governance relationships, and articulate their approach to risk culture, CPS 220 ensures nothing falls between the cracks. The governance relationships element connects to CPS 510 (Governance), which requires specific board committees, while the risk culture element reflects APRA's post-Royal Commission emphasis on conduct and culture."
+    },
+    {
+      "id": "cps220-009",
+      "type": "mcq",
+      "question": "What are the requirements for a business plan under CPS 220?",
+      "options": [
+        "Must cover a minimum rolling 3-year period, be reviewed annually, be board-approved, cover the entirety of the institution, and consider material risks",
+        "Must cover a 1-year period, be reviewed quarterly, and be approved by the CRO",
+        "Must be a 5-year strategic plan approved by the risk committee only",
+        "Must only cover regulated activities and be updated whenever a new product is launched"
+      ],
+      "correct": 0,
+      "explanation": "CPS 220 requires the business plan to have a minimum rolling 3-year horizon, ensuring institutions think beyond the current financial year. It must be reviewed at least annually, approved by the board (not delegated to management), and cover the entirety of the institution's operations — not just regulated activities. Critically, the plan must consider material risks, creating a direct link between strategic planning and risk management. This prevents business plans from being aspirational documents that ignore downside scenarios."
+    },
+    {
+      "id": "cps220-010",
+      "type": "mcq",
+      "question": "Which of the following correctly describes the 'operationally independent' requirement for the risk management function under CPS 220?",
+      "options": [
+        "The risk management function must be located in a separate building from revenue-generating business units",
+        "The risk management function must have necessary authority and reporting lines, access to all risk-generating aspects of the business, and notify the board of material breaches",
+        "The risk management function must report exclusively to external auditors with no internal reporting",
+        "The risk management function must be outsourced to a third party to ensure independence"
+      ],
+      "correct": 1,
+      "explanation": "Operational independence under CPS 220 means the risk function cannot be subordinate to business line management or have its effectiveness compromised by commercial pressures. It must possess the authority to challenge decisions, have access to all parts of the business that generate risk, maintain appropriate reporting lines to the board/risk committee, and actively notify the board when material breaches occur. This connects to CPS 510's requirement for a board risk committee that oversees the function's effectiveness."
+    },
+    {
+      "id": "cps220-011",
+      "type": "mcq",
+      "question": "Under CPS 220, the CRO must be independent from which functions?",
+      "options": [
+        "Independent from business lines only",
+        "Independent from both business lines and the finance function",
+        "Independent from internal audit and compliance only",
+        "Independent from the board and all committee structures"
+      ],
+      "correct": 1,
+      "explanation": "CPS 220 requires the CRO to be independent from both business lines AND the finance function. This dual independence requirement prevents the CRO from being captured by either revenue-generating activities or by financial reporting pressures that might incentivise downplaying risks. It's why the CRO cannot simultaneously hold the CFO role — the finance function has its own incentives around earnings and capital management that could conflict with transparent risk reporting."
+    },
+    {
+      "id": "cps220-012",
+      "type": "mcq",
+      "question": "What does 'effective challenge' mean in the context of the CRO's authority under CPS 220?",
+      "options": [
+        "The CRO can veto any board decision relating to risk",
+        "The CRO has the authority to question and challenge risk-taking decisions made by business lines and senior management",
+        "The CRO must formally challenge every risk approval in writing within 48 hours",
+        "The CRO can only challenge decisions after they have been implemented and losses incurred"
+      ],
+      "correct": 1,
+      "explanation": "The 'effective challenge' authority means the CRO can meaningfully push back on risk-taking decisions before they are finalised — not just rubber-stamp them after the fact. This requires organisational stature, access to information, and board support. Without effective challenge, the CRO becomes a risk reporter rather than a risk manager. APRA has emphasised this concept in supervisory guidance, noting that effective challenge requires both formal authority and a supportive risk culture where dissent is welcomed."
+    },
+    {
+      "id": "cps220-013",
+      "type": "mcq",
+      "question": "Which roles is the CRO explicitly prohibited from concurrently holding under CPS 220?",
+      "options": [
+        "CEO, CFO, Appointed Actuary, and Head of Internal Audit",
+        "CEO and Company Secretary only",
+        "Any executive committee role whatsoever",
+        "Head of Compliance and Head of Legal only"
+      ],
+      "correct": 0,
+      "explanation": "CPS 220 specifically prohibits the CRO from simultaneously being the CEO, CFO, Appointed Actuary, or Head of Internal Audit. Each prohibition addresses a distinct conflict: the CEO runs the business (first line), the CFO controls financial reporting, the Appointed Actuary has statutory insurance obligations, and the Head of Internal Audit provides independent assurance (third line). Combining any of these with the CRO role (second line) would collapse the separation between risk-taking, risk management, and assurance."
+    },
+    {
+      "id": "cps220-014",
+      "type": "mcq",
+      "question": "What are the requirements for the compliance function under CPS 220?",
+      "options": [
+        "It must be outsourced to an external legal firm to ensure objectivity",
+        "It must be a designated function, adequately staffed, with a reporting line independent from business units, that assists senior management in managing compliance risk",
+        "It must report exclusively to the external auditor and have no internal reporting lines",
+        "It must be combined with the internal audit function for efficiency"
+      ],
+      "correct": 1,
+      "explanation": "CPS 220 requires a designated compliance function (not ad hoc or combined with business roles) that is adequately resourced, has a reporting line independent from the business activities it monitors, and assists senior management in managing compliance risk. This connects to CPS 510's governance requirements — the compliance function often reports to the board audit committee or risk committee. The independence from business lines mirrors the risk function's independence, reinforcing the 'three lines of defence' model."
+    },
+    {
+      "id": "cps220-015",
+      "type": "matching",
+      "question": "Match the review type with its characteristics under CPS 220:",
+      "pairs": [
+        {
+          "left": "Annual review",
+          "right": "Assesses compliance with and effectiveness of the framework; can be conducted by internal or external audit"
+        },
+        {
+          "left": "Comprehensive review (triennial)",
+          "right": "Must be conducted by operationally independent persons; assesses overall adequacy and effectiveness of the entire framework"
+        },
+        {
+          "left": "Annual declaration",
+          "right": "Signed attestation by Board Chair and Risk Committee Chair confirming framework compliance"
+        }
+      ],
+      "explanation": "CPS 220 creates a two-tier assurance cycle. The annual review checks whether the framework is being followed and remains effective — this can be done by internal audit. The triennial comprehensive review goes deeper, assessing the entire framework's adequacy against the institution's risk profile, and must be done by operationally independent persons (which could include external consultants). The annual declaration then forces personal board-level accountability for the framework's state, connecting to CPS 510's director responsibilities."
+    },
+    {
+      "id": "cps220-016",
+      "type": "mcq",
+      "question": "Who must sign the annual risk management declaration under CPS 220?",
+      "options": [
+        "The CRO and the CEO jointly",
+        "The Board Chair and the Risk Committee Chair",
+        "The external auditor and the Head of Internal Audit",
+        "All board members individually"
+      ],
+      "correct": 1,
+      "explanation": "The risk management declaration must be signed by both the Board Chair and the Risk Committee Chair, attesting that the entity's risk management framework complies with CPS 220. This dual-signature requirement ensures that both the full board (via its Chair) and the specialist risk oversight body (via the Risk Committee Chair) take personal responsibility. It creates a direct accountability mechanism — these individuals cannot claim ignorance of framework deficiencies because they have personally attested to compliance."
+    },
+    {
+      "id": "cps220-017",
+      "type": "matching",
+      "question": "Match each material risk category with its primary characteristic:",
+      "pairs": [
+        {
+          "left": "Credit risk",
+          "right": "Potential loss from a counterparty failing to meet financial obligations"
+        },
+        {
+          "left": "Liquidity risk",
+          "right": "Inability to meet payment obligations as they fall due without incurring unacceptable losses"
+        },
+        {
+          "left": "Operational risk",
+          "right": "Loss from inadequate or failed processes, people, systems, or external events"
+        },
+        {
+          "left": "Strategic risk",
+          "right": "Risk from adverse business decisions, improper implementation of strategy, or lack of responsiveness to change"
+        },
+        {
+          "left": "Concentration risk",
+          "right": "Excessive exposure to a single counterparty, sector, or geographic area"
+        }
+      ],
+      "explanation": "CPS 220 requires entities to address all material risks including credit, market, liquidity, operational, insurance (for insurers), strategic, and concentration risk. Each has its own prudential standard for detailed requirements — for example, APS 210 for liquidity, CPS 230 for operational risk — but CPS 220 ensures they are all captured within a single integrated framework. Concentration risk is particularly important as it can amplify any other risk category."
+    },
+    {
+      "id": "cps220-018",
+      "type": "mcq",
+      "question": "How does CPS 220 address 'risk culture' within the risk management framework?",
+      "options": [
+        "It does not mention risk culture — this is covered exclusively by CPS 510",
+        "It requires the board to form a view of the entity's risk culture, and the RMS must outline the approach to instilling an appropriate risk culture",
+        "It mandates an annual staff survey measuring risk culture with results reported to APRA",
+        "It requires the CRO to personally approve all hiring decisions to ensure cultural fit"
+      ],
+      "correct": 1,
+      "explanation": "CPS 220 requires two things regarding risk culture: first, the board must form a view of the entity's risk culture (is it appropriate? does it support sound risk management?); second, the RMS must outline the approach to instilling an appropriate risk culture throughout the organisation. This reflects APRA's post-Royal Commission focus — a technically sound framework is useless if the culture encourages people to circumvent it. Risk culture connects to CPS 510's board responsibility for setting the 'tone from the top'."
+    },
+    {
+      "id": "cps220-019",
+      "type": "mcq",
+      "question": "How does CPS 220 interact with CPS 510 (Governance)?",
+      "options": [
+        "CPS 510 replaces all governance requirements in CPS 220",
+        "CPS 510 requires board committees including a risk committee, which provides the governance structure through which CPS 220's risk oversight requirements are delivered",
+        "CPS 220 and CPS 510 are entirely separate standards with no interaction",
+        "CPS 510 only applies to ADIs while CPS 220 applies to all APRA-regulated entities"
+      ],
+      "correct": 1,
+      "explanation": "CPS 510 establishes the board committee structure — including the requirement for a risk committee — that provides the governance architecture through which CPS 220's risk management oversight operates. The risk committee required by CPS 510 is the body that oversees the CRO, reviews the RAS and RMS, and receives the risk management function's reports. Without CPS 510's governance foundations, CPS 220's risk management requirements would lack the institutional scaffolding needed for effective board-level oversight."
+    },
+    {
+      "id": "cps220-020",
+      "type": "mcq",
+      "question": "What is the relationship between CPS 220 and CPS 230 (Operational Risk Management)?",
+      "options": [
+        "CPS 230 replaces the operational risk elements of CPS 220 entirely",
+        "CPS 230 provides detailed operational risk requirements that sit within the broader CPS 220 risk management framework",
+        "CPS 220 does not recognise operational risk as a material risk category",
+        "CPS 230 applies only to outsourcing and has no connection to CPS 220"
+      ],
+      "correct": 1,
+      "explanation": "CPS 230 provides detailed requirements for operational risk management — including business continuity, service provider management, and critical operations — that sit within the overarching CPS 220 risk management framework. CPS 220 requires operational risk to be identified as a material risk and addressed in the RAS and RMS, while CPS 230 specifies exactly how. This hierarchical relationship means an entity's CPS 230 compliance is nested within its broader CPS 220 framework, not separate from it."
+    },
+    {
+      "id": "cps220-021",
+      "type": "mcq",
+      "question": "Under SPS 220, what is the equivalent of CPS 220's 'risk management framework' for RSE licensees?",
+      "options": [
+        "Risk Management Plan (RMP)",
+        "Board-approved Risk Management Strategy Framework (RMSF)",
+        "Member Outcomes Assessment Framework",
+        "Investment Governance Framework"
+      ],
+      "correct": 1,
+      "explanation": "SPS 220 requires RSE licensees to maintain a Board-approved Risk Management Strategy Framework (RMSF) — the superannuation equivalent of CPS 220's risk management framework. The RMSF must address all material risks to the fund and its beneficiaries, reflecting the fiduciary nature of super. Unlike CPS 220's entity-focused framework, the RMSF must specifically consider risks to member outcomes and beneficiary interests, connecting to the RSE licensee's overriding duty under the SIS Act."
+    },
+    {
+      "id": "cps220-022",
+      "type": "mcq",
+      "question": "What are the group-level requirements under CPS 220?",
+      "options": [
+        "CPS 220 only applies to individual regulated entities and has no group-level requirements",
+        "The Head of the group must ensure the risk management framework is applied throughout the group, including to non-APRA-regulated entities within the group",
+        "Group requirements only apply if the group has more than 5 regulated subsidiaries",
+        "The parent entity's CRO automatically becomes CRO of all subsidiaries"
+      ],
+      "correct": 1,
+      "explanation": "CPS 220 extends beyond individual regulated entities — the Head of the group must ensure the risk management framework is applied across the entire group, including non-APRA-regulated entities. This prevents regulatory arbitrage where risks are shifted to unregulated parts of the group to escape oversight. It recognises that risks in non-regulated subsidiaries (such as wealth management or fintech arms) can transmit back to the regulated entity through contagion, reputational damage, or financial interconnections."
+    },
+    {
+      "id": "cps220-023",
+      "type": "matching",
+      "question": "Match each notification trigger with the correct CPS 220 requirement:",
+      "pairs": [
+        {
+          "left": "Significant breach of the framework",
+          "right": "Notify APRA within 10 business days"
+        },
+        {
+          "left": "Material deviation from the framework",
+          "right": "Notify APRA within 10 business days"
+        },
+        {
+          "left": "Framework doesn't adequately address a material risk",
+          "right": "Must also notify APRA — failure to cover a material risk is itself a reportable matter"
+        }
+      ],
+      "explanation": "CPS 220 has three notification triggers, all requiring APRA notification within 10 business days: a significant breach, a material deviation, and a situation where the framework doesn't adequately address a material risk. The third trigger is particularly important — it means an entity cannot simply claim compliance because it followed its framework, if that framework had gaps. This forward-looking obligation forces entities to continuously assess whether their framework keeps pace with their evolving risk profile."
+    },
+    {
+      "id": "cps220-024",
+      "type": "mcq",
+      "question": "Who does CPS 220 directly apply to?",
+      "options": [
+        "ADIs, general insurers, life companies, and private health insurers",
+        "All APRA-regulated entities including RSE licensees",
+        "ADIs only, with other entity types covered by industry-specific standards",
+        "Only systemically important financial institutions (D-SIBs)"
+      ],
+      "correct": 0,
+      "explanation": "CPS 220 applies directly to ADIs (banks, credit unions, building societies), general insurers, life insurance companies, and private health insurers. It does NOT directly apply to RSE licensees (superannuation) — they are covered by the equivalent SPS 220. This 'CPS' vs 'SPS' distinction is a recurring APRA convention: Cross-industry Prudential Standards apply to banking and insurance, while Superannuation Prudential Standards adapt similar requirements for the unique fiduciary context of retirement savings."
+    },
+    {
+      "id": "cps220-025",
+      "type": "mcq",
+      "question": "Under CPS 220, who bears 'ultimate responsibility' for the risk management framework?",
+      "options": [
+        "The Chief Risk Officer",
+        "The CEO as the most senior executive",
+        "The board of directors",
+        "The Risk Committee as the specialist oversight body"
+      ],
+      "correct": 2,
+      "explanation": "CPS 220 states that the board is 'ultimately responsible' for the risk management framework. While the CRO leads day-to-day risk management and the Risk Committee provides specialist oversight, accountability cannot be delegated away from the board. This aligns with CPS 510's governance principles and reflects the legal position under the Banking Act and Insurance Act — directors bear personal accountability for prudential compliance. The annual declaration signed by the Board Chair reinforces this ultimate responsibility."
+    }
+  ]
+}

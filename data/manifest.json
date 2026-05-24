@@ -1,0 +1,27 @@
+{
+  "categories": [
+    {
+      "id": "governance",
+      "title": "Governance",
+      "modules": ["governance-foundations", "board-governance"]
+    },
+    {
+      "id": "far",
+      "title": "FAR",
+      "modules": ["far-foundations"]
+    },
+    {
+      "id": "apra",
+      "title": "APRA Standards",
+      "modules": ["cps-230-operational-resilience", "cps-220-risk-management", "apra-governance-standards"]
+    }
+  ],
+  "modules": [
+    "far-foundations",
+    "governance-foundations",
+    "board-governance",
+    "cps-230-operational-resilience",
+    "cps-220-risk-management",
+    "apra-governance-standards"
+  ]
+}

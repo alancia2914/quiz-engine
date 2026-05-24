@@ -1,0 +1,422 @@
+{
+  "id": "far-foundations",
+  "title": "FAR Foundations",
+  "description": "Core concepts of the Financial Accountability Regime",
+  "questions": [
+    {
+      "id": "far-001",
+      "type": "mcq",
+      "question": "What did FAR replace?",
+      "options": [
+        "Banking Executive Accountability Regime (BEAR)",
+        "Financial Services Reform Act (FSRA)",
+        "Australian Prudential Standards (APS)",
+        "Corporate Governance Principles (CGP)"
+      ],
+      "correct": 0,
+      "explanation": "FAR replaced BEAR (Banking Executive Accountability Regime), which had applied only to ADIs since 2018. The key expansion: FAR extends the same accountability logic across insurance and superannuation, and brings ASIC in as a joint administrator alongside APRA. Same DNA, broader reach."
+    },
+    {
+      "id": "far-002",
+      "type": "mcq",
+      "question": "Which two regulators jointly administer FAR?",
+      "options": [
+        "APRA and ASIC",
+        "APRA and RBA",
+        "ASIC and ACCC",
+        "APRA and Treasury"
+      ],
+      "correct": 0,
+      "explanation": "APRA handles prudential matters (soundness of the entity); ASIC handles conduct matters (consumer protection and market integrity). This reflects Australia's 'twin peaks' regulatory model. Under BEAR, only APRA administered. The Hayne Royal Commission recommended joint administration, and FAR delivered it."
+    },
+    {
+      "id": "far-003",
+      "type": "mcq",
+      "question": "When did FAR commence for insurers and superannuation trustees?",
+      "options": [
+        "15 March 2024",
+        "15 March 2025",
+        "1 January 2025",
+        "1 July 2024"
+      ],
+      "correct": 1,
+      "explanation": "FAR was phased: ADIs (banks) from 15 March 2024, then insurers and RSE licensees (super trustees) from 15 March 2025. This staggering let the regulators learn from banking implementation before the second wave. The November 2024 APRA observations letter shared banking lessons specifically to help insurance and super entities prepare."
+    },
+    {
+      "id": "far-004",
+      "type": "mcq",
+      "question": "What is the minimum percentage of an accountable person's variable remuneration that must be deferred under FAR?",
+      "options": [
+        "20%",
+        "30%",
+        "40%",
+        "50%"
+      ],
+      "correct": 2,
+      "explanation": "At least 40% of variable pay must be deferred for a minimum of 4 years. The logic: decisions by senior leaders often take years to play out. Deferral ensures APs have personal financial skin in the game for long-term consequences, and creates a mechanism for clawback if accountability failures emerge later. The $50,000 de minimis threshold exempts small variable amounts."
+    },
+    {
+      "id": "far-005",
+      "type": "mcq",
+      "question": "What is the asset threshold for an RSE licensee to be classified as an 'enhanced' entity under FAR?",
+      "options": [
+        "$10 billion",
+        "$20 billion",
+        "$30 billion",
+        "$50 billion"
+      ],
+      "correct": 2,
+      "explanation": "RSE licensees (super funds) need >$30B in total assets to be enhanced. For context, AustralianSuper manages over $300B, so it's well above the threshold. The different thresholds by sector (ADIs $20B, insurers $10B, PHI $3B, RSEs $30B) reflect different industry scales and systemic risk profiles."
+    },
+    {
+      "id": "far-006",
+      "type": "mcq",
+      "question": "What must enhanced entities lodge with APRA that core entities do not?",
+      "options": [
+        "Annual financial statements",
+        "Accountability maps and accountability statements",
+        "Risk appetite statements",
+        "Board skills matrices"
+      ],
+      "correct": 1,
+      "explanation": "Enhanced entities must prepare, lodge, and maintain accountability maps (entity-level, showing who owns what) and accountability statements (individual, signed by each AP). Core entities still have the same substantive obligations under FAR, but aren't required to formally lodge these documents. The distinction is about regulatory visibility, not reduced expectations."
+    },
+    {
+      "id": "far-007",
+      "type": "mcq",
+      "question": "Under FAR, if one entity in a corporate group is classified as 'enhanced', what happens to other entities in the group?",
+      "options": [
+        "They remain at their individual classification",
+        "They all become enhanced regardless of their own asset size",
+        "Only direct subsidiaries become enhanced",
+        "They must apply for reclassification"
+      ],
+      "correct": 1,
+      "explanation": "The 'group contagion' rule: if any one entity in a corporate group crosses the enhanced threshold, all accountable entities in that group become enhanced. This prevents groups from structuring around the threshold by splitting entities. It means a small subsidiary of a major bank has the same documentation obligations as the parent."
+    },
+    {
+      "id": "far-008",
+      "type": "mcq",
+      "question": "How many days before becoming an accountable person must registration be submitted?",
+      "options": [
+        "7 days",
+        "14 days",
+        "21 days",
+        "30 days"
+      ],
+      "correct": 2,
+      "explanation": "Registration must be submitted at least 21 days before the individual starts as an AP. After 21 days without regulator objection, the person is deemed registered. If an entity submits late or with incomplete information, the entity (not the individual) is in breach of its key personnel obligations. Grace periods exist for temporary vacancies (90 days) and new directors appointed at general meetings (30 days)."
+    },
+    {
+      "id": "far-009",
+      "type": "mcq",
+      "question": "Which Royal Commission recommended extending BEAR-style accountability across all APRA-regulated sectors?",
+      "options": [
+        "Cole Royal Commission",
+        "Hayne Royal Commission",
+        "Heydon Royal Commission",
+        "Fitzgerald Inquiry"
+      ],
+      "correct": 1,
+      "explanation": "The Hayne Royal Commission (2019) into Misconduct in Banking, Superannuation and Financial Services made this recommendation. Commissioner Hayne found that unclear accountability enabled misconduct across sectors, not just banking. He recommended the BEAR model be extended to all APRA-regulated entities and jointly administered by APRA and ASIC. FAR is the legislative implementation of those recommendations."
+    },
+    {
+      "id": "far-010",
+      "type": "matching",
+      "question": "Match each FAR obligation pillar to its description:",
+      "pairs": [
+        {
+          "left": "Accountability obligations",
+          "right": "Act with honesty, integrity, skill, care, diligence"
+        },
+        {
+          "left": "Key personnel obligations",
+          "right": "AP responsibilities must collectively cover all operations"
+        },
+        {
+          "left": "Deferred remuneration",
+          "right": "40% of variable pay held back for 4 years minimum"
+        },
+        {
+          "left": "Notification obligations",
+          "right": "Inform regulators within 30 days of material changes"
+        }
+      ],
+      "explanation": "These four pillars form the complete obligation set under FAR. Accountability obligations apply to both entities AND individual APs (they're the conduct standard). Key personnel and notification obligations apply to entities (they're structural). Deferred remuneration applies to entities in respect of their APs (it's the consequence mechanism). Together they create a loop: clear accountability, no gaps, consequences for failure, and regulator visibility."
+    },
+    {
+      "id": "far-011",
+      "type": "matching",
+      "question": "Match each FAR entity type to its enhanced notification threshold:",
+      "pairs": [
+        {
+          "left": "ADIs (banks)",
+          "right": "$20 billion"
+        },
+        {
+          "left": "General insurers / life companies",
+          "right": "$10 billion"
+        },
+        {
+          "left": "Private health insurers",
+          "right": "$3 billion"
+        },
+        {
+          "left": "RSE licensees (super)",
+          "right": "$30 billion"
+        }
+      ],
+      "explanation": "The thresholds vary by sector because industries operate at different scales. A $10B general insurer is systemically significant in its sector; a $10B super fund is mid-tier. Private health insurers have the lowest threshold ($3B) because the sector is smaller overall. Remember: if any entity in a corporate group exceeds its threshold, all group entities become enhanced."
+    },
+    {
+      "id": "far-012",
+      "type": "mcq",
+      "question": "What is the regulators' preference regarding jointly held prescribed responsibilities?",
+      "options": [
+        "Joint accountability is encouraged for risk sharing",
+        "Joint accountability should be kept to a minimum; individual accountability is preferred",
+        "All prescribed responsibilities must be jointly held",
+        "Joint accountability is only permitted for board members"
+      ],
+      "correct": 1,
+      "explanation": "The regulators are explicit: 'individual accountability is the clearest form of accountability.' Joint holding dilutes clarity about who owns an outcome when things go wrong. The November 2024 banking observations flagged this as a common problem, with entities assigning prescribed responsibilities to multiple people without clear delineation. Board members are the exception because collective board responsibility is inherent to the governance model."
+    },
+    {
+      "id": "far-013",
+      "type": "mcq",
+      "question": "What must an accountability statement for an accountable person include, at a minimum?",
+      "options": [
+        "The AP's position title and start date only",
+        "The AP's responsibilities (including prescribed responsibilities), how those relate to the entity's operations, and the AP's reporting lines",
+        "A summary of the AP's qualifications and employment history",
+        "The AP's KPIs and performance targets for the current year"
+      ],
+      "correct": 1,
+      "explanation": "Accountability statements must clearly articulate the AP's actual and prescribed responsibilities, how those responsibilities relate to the operations of the entity (and any subsidiaries), and the AP's position within the entity's management structure including reporting lines. They are not CVs or performance plans\u2014they are governance documents that make it clear who owns what. The November 2024 observations emphasised that statements must be specific enough to identify the AP who is accountable for a given activity."
+    },
+    {
+      "id": "far-014",
+      "type": "mcq",
+      "question": "Who signs an accountability statement under FAR?",
+      "options": [
+        "The accountable person and the board chair jointly",
+        "The accountable person themselves",
+        "The entity's company secretary on behalf of the board",
+        "The relevant regulator (APRA or ASIC) after approval"
+      ],
+      "correct": 1,
+      "explanation": "The accountable person signs their own accountability statement, reflecting personal ownership of the responsibilities described within it. This is a deliberate design choice: by signing, the AP personally confirms they understand and accept their responsibilities. The entity is responsible for ensuring the statement is prepared and lodged, but the signature belongs to the individual AP."
+    },
+    {
+      "id": "far-015",
+      "type": "mcq",
+      "question": "What level of specificity do regulators expect in accountability statements?",
+      "options": [
+        "High-level descriptions aligned to business unit names are sufficient",
+        "Statements should mirror the position description used for recruitment",
+        "Responsibilities must be described specifically enough to identify a single AP for any given activity or obligation",
+        "Generic descriptions are acceptable as long as the accountability map provides detail"
+      ],
+      "correct": 2,
+      "explanation": "The regulators expect granular specificity: if a regulatory obligation or business activity arises, the statement should make it clear which single AP owns it. The November 2024 observations criticised entities that used high-level or generic language, because vague statements defeat the purpose of individual accountability. The test is practical: could a regulator look at the statement and immediately identify who is accountable for a specific failure?"
+    },
+    {
+      "id": "far-016",
+      "type": "matching",
+      "question": "Match each accountability map requirement to its description under s34 of the FAR Act:",
+      "pairs": [
+        {
+          "left": "Coverage of operations",
+          "right": "The map must show how AP responsibilities collectively cover all of the entity's operations"
+        },
+        {
+          "left": "Reporting structure",
+          "right": "The map must show the reporting lines and relationships between APs"
+        },
+        {
+          "left": "Subsidiary relationships",
+          "right": "The map must identify responsibilities in respect of subsidiaries of the entity"
+        },
+        {
+          "left": "Prescribed responsibilities",
+          "right": "The map must identify which APs hold each prescribed responsibility"
+        }
+      ],
+      "explanation": "Section 34 of the FAR Act sets out minimum content requirements for accountability maps. Unlike an org chart, which shows hierarchical reporting only, an accountability map is a functional document showing how responsibilities are allocated and ensuring there are no gaps. The map must demonstrate that APs collectively cover all operations, and must specifically identify how prescribed responsibilities are allocated. Regulators use maps to quickly assess coverage gaps."
+    },
+    {
+      "id": "far-017",
+      "type": "mcq",
+      "question": "How does an accountability map differ from an organisational chart?",
+      "options": [
+        "It is identical to an org chart but must be lodged with APRA",
+        "It focuses on functional responsibility allocation and coverage of all operations, not just hierarchical reporting",
+        "It only shows board-level reporting and excludes management roles",
+        "It replaces the org chart and must not include reporting lines"
+      ],
+      "correct": 1,
+      "explanation": "An accountability map is fundamentally different from an org chart. While it includes reporting lines, its primary purpose is to demonstrate that AP responsibilities collectively cover all of the entity's operations with no gaps or unexplained overlaps. An org chart shows who reports to whom; an accountability map shows who is accountable for what, and proves comprehensive coverage. The November 2024 observations noted that entities should not simply rebadge their org chart as an accountability map."
+    },
+    {
+      "id": "far-018",
+      "type": "mcq",
+      "question": "What are 'key functions' under FAR?",
+      "options": [
+        "Functions that must be performed by the CEO or board chair",
+        "Functions prescribed by the Regulator Rules that must be assigned to at least one AP, but do not themselves make someone an AP",
+        "Functions that automatically create new AP positions when assigned",
+        "Critical business operations identified by each entity's own risk assessment"
+      ],
+      "correct": 1,
+      "explanation": "Key functions are prescribed by Regulator Rules and represent important functional areas (such as financial control, risk management, and compliance) that must be allocated to at least one AP. Critically, holding a key function does not make someone an AP\u2014rather, the entity must ensure existing APs cover these functions. This is a common misunderstanding: key functions don't expand the AP population; they ensure important areas aren't left unassigned."
+    },
+    {
+      "id": "far-019",
+      "type": "mcq",
+      "question": "An entity assigns the 'financial control' key function to its CFO, who is already an AP by virtue of their prescribed position. What is the effect on the AP population?",
+      "options": [
+        "The AP population increases by one because a new key function holder is added",
+        "No change\u2014the CFO was already an AP; the key function is assigned to an existing AP",
+        "The CFO must be re-registered as a new type of AP",
+        "A deputy must also be registered as an AP to provide backup coverage"
+      ],
+      "correct": 1,
+      "explanation": "Key functions do not expand the AP population. They are responsibilities that must be assigned to existing APs. If the CFO already holds a prescribed position (making them an AP), assigning them the financial control key function simply adds to their documented responsibilities. The entity has discretion over which existing AP holds each key function, as long as the assignment is logical and the AP has appropriate authority to discharge it."
+    },
+    {
+      "id": "far-020",
+      "type": "mcq",
+      "question": "What is a Significant Related Entity (SRE) under FAR?",
+      "options": [
+        "Any subsidiary of an accountable entity",
+        "A related body corporate that is significant to the accountable entity's business, as prescribed by APRA",
+        "An entity that shares directors with the accountable entity",
+        "A third-party outsourcing provider that performs critical functions"
+      ],
+      "correct": 1,
+      "explanation": "SREs are related bodies corporate prescribed by APRA as significant to the accountable entity. They are not automatically every subsidiary\u2014APRA makes a determination based on the entity's significance to the group's operations. SREs matter because certain senior executives within SREs may themselves become APs of the parent accountable entity, extending accountability into the group structure. This prevents entities from pushing functions into subsidiaries to avoid accountability."
+    },
+    {
+      "id": "far-021",
+      "type": "mcq",
+      "question": "How are accountable persons of Significant Related Entities (SREs) identified?",
+      "options": [
+        "All directors and senior executives of the SRE automatically become APs",
+        "Only persons holding prescribed positions within the SRE are APs of the accountable entity",
+        "The SRE's board nominates which of its executives should be APs",
+        "APRA interviews SRE executives and selects APs based on influence"
+      ],
+      "correct": 1,
+      "explanation": "APs of SREs are identified through the same mechanism as the accountable entity itself: by reference to prescribed positions set out in the Minister Rules. Not every executive in an SRE becomes an AP\u2014only those in positions prescribed as triggering AP status. This is precise and rule-based, not discretionary. The accountable entity is responsible for ensuring these individuals are registered and that their responsibilities are documented."
+    },
+    {
+      "id": "far-022",
+      "type": "matching",
+      "question": "Match each FAR enforcement mechanism to its description:",
+      "pairs": [
+        {
+          "left": "Civil penalty",
+          "right": "Financial sanction for contravention of a civil penalty provision, up to set maximums"
+        },
+        {
+          "left": "Disqualification",
+          "right": "An AP is prohibited from being an AP of any accountable entity for a specified period"
+        },
+        {
+          "left": "Direction",
+          "right": "Regulator directs the entity or AP to take (or cease) specific actions"
+        },
+        {
+          "left": "Enforceable undertaking",
+          "right": "A voluntary commitment accepted by the regulator that becomes legally binding once accepted"
+        }
+      ],
+      "explanation": "FAR provides a graduated enforcement toolkit. Civil penalties impose financial consequences (with higher caps for entities than individuals). Disqualification removes an individual from the AP population entirely\u2014the most severe individual consequence. Directions are forward-looking corrective orders. Enforceable undertakings allow entities to commit to remediation voluntarily, but once accepted they carry legal force. Regulators choose tools proportionate to the severity and nature of the breach."
+    },
+    {
+      "id": "far-023",
+      "type": "mcq",
+      "question": "Under BEAR-to-FAR transition, what happened to existing BEAR-registered accountable persons?",
+      "options": [
+        "They had to re-register from scratch under FAR within 90 days",
+        "Their BEAR registrations were automatically transitioned\u2014they were taken to be registered under FAR",
+        "BEAR registrations lapsed and entities had 12 months to re-register all APs",
+        "Only those in prescribed positions were transitioned; others had to re-apply"
+      ],
+      "correct": 1,
+      "explanation": "Existing BEAR registrations transitioned automatically to FAR registrations for ADIs on 15 March 2024. This 'deemed registration' avoided the absurdity of requiring hundreds of existing APs to re-register simultaneously. However, entities still needed to update their documentation to meet FAR's expanded requirements (e.g., new prescribed responsibilities not in BEAR, accountability maps, and updated statements). The transition was designed to be operationally seamless but substantively upgraded."
+    },
+    {
+      "id": "far-024",
+      "type": "mcq",
+      "question": "What makes an entity 'dual-regulated' under FAR?",
+      "options": [
+        "It is regulated by both APRA and a state regulator",
+        "It holds licences under both the Banking Act and the Insurance Act",
+        "It is subject to both prudential regulation by APRA and conduct regulation by ASIC (i.e., it holds an AFSL or is an RSE licensee)",
+        "It operates in both Australia and another jurisdiction"
+      ],
+      "correct": 2,
+      "explanation": "An entity is dual-regulated when it falls under both APRA's prudential oversight and ASIC's conduct oversight\u2014typically because it holds an Australian Financial Services Licence (AFSL) or is an RSE licensee. Most accountable entities are dual-regulated because they provide financial services requiring an AFSL. The distinction matters because ASIC's FAR jurisdiction only extends to dual-regulated entities. APRA-only entities (rare, but possible) would not have ASIC as a FAR administrator."
+    },
+    {
+      "id": "far-025",
+      "type": "mcq",
+      "question": "For dual-regulated entities, what is ASIC's scope under FAR?",
+      "options": [
+        "ASIC can enforce all FAR obligations equally with APRA",
+        "ASIC's scope is limited to 'significant or systemic' conduct matters relating to APs and accountable entities",
+        "ASIC only oversees deferred remuneration obligations",
+        "ASIC handles enforcement while APRA handles registration"
+      ],
+      "correct": 1,
+      "explanation": "ASIC's FAR jurisdiction for dual-regulated entities is focused on 'significant or systemic' conduct matters. This is deliberately narrower than APRA's full prudential scope\u2014it prevents ASIC from using FAR for routine conduct supervision (which ASIC already handles through other legislation). The threshold ensures FAR's joint administration adds value for serious accountability failures without creating duplicative supervision for everyday conduct matters."
+    },
+    {
+      "id": "far-026",
+      "type": "mcq",
+      "question": "When an entity submits a declaration to register an accountable person, what does the entity attest to?",
+      "options": [
+        "That the AP has passed a fit and proper person test administered by APRA",
+        "That the entity has taken reasonable steps to assess the person's suitability, including character, competence, and capacity",
+        "That the AP has no criminal record in any jurisdiction",
+        "That the AP has completed mandatory FAR training modules"
+      ],
+      "correct": 1,
+      "explanation": "The declaration is an entity-level attestation that the entity has taken reasonable steps to satisfy itself that the person is suitable to be an AP\u2014covering their character, competence, and capacity. This places the onus on the entity to conduct due diligence, not on regulators to pre-approve. Regulators can object within 21 days, but the primary gatekeeper responsibility sits with the entity. The entity's assessment must be genuine and documented, not a rubber stamp."
+    },
+    {
+      "id": "far-027",
+      "type": "matching",
+      "question": "Match each type of change to the correct FAR notification requirement:",
+      "pairs": [
+        {
+          "left": "AP ceases to hold their position",
+          "right": "Notify regulator within 14 days (material change)"
+        },
+        {
+          "left": "Minor update to an AP's title with no change in responsibilities",
+          "right": "Non-material change; update at next periodic review"
+        },
+        {
+          "left": "Significant restructure reassigning responsibilities between APs",
+          "right": "Notify regulator within 30 days and update accountability map"
+        }
+      ],
+      "explanation": "FAR distinguishes between material and non-material changes. Material changes\u2014such as an AP departing, a significant reallocation of responsibilities, or a change that affects the accuracy of the accountability map\u2014require prompt notification (14 days for AP departures, 30 days for other material changes). Non-material changes (cosmetic title changes, minor administrative updates that don't affect substance) can be captured at the next scheduled update. The test is whether the change affects the substance of accountability allocation."
+    },
+    {
+      "id": "far-028",
+      "type": "mcq",
+      "question": "How does FAR's deferred remuneration requirement interact with APRA's CPS 511 Remuneration standard?",
+      "options": [
+        "FAR replaces CPS 511 entirely for accountable persons",
+        "CPS 511 applies to all employees; FAR's 40%/4-year minimum operates as a floor that may be exceeded by CPS 511's broader requirements",
+        "Entities can choose to comply with either FAR or CPS 511, but not both",
+        "CPS 511 sets the deferral percentage and FAR sets the deferral period only"
+      ],
+      "correct": 1,
+      "explanation": "FAR and CPS 511 operate concurrently and are complementary. FAR sets a minimum floor (40% deferral, 4 years) specifically for APs. CPS 511 applies more broadly across the entity and may impose additional requirements such as longer deferral for certain roles, malus and clawback triggers, or board-level deferral of 60%. Entities must comply with both\u2014where CPS 511 is more demanding (e.g., higher deferral for CEOs), that higher standard applies. FAR ensures no AP falls below the 40%/4-year minimum regardless of CPS 511 categorisation."
+    }
+  ]
+}

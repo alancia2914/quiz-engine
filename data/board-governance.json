@@ -1,0 +1,521 @@
+{
+  "module": {
+    "id": "board-governance",
+    "title": "Board Governance",
+    "description": "Board structure, accountabilities, committees, and dynamics"
+  },
+  "questions": [
+    {
+      "id": "bgov-001",
+      "type": "mcq",
+      "topic": "Board composition",
+      "question": "What is the defining characteristic of an 'independent director' under CPS 510?",
+      "options": [
+        "They have no material relationship with the institution that could interfere with their independent judgement",
+        "They are not employed full-time by the organisation",
+        "They have served on the board for less than 5 years",
+        "They hold no shares in the company"
+      ],
+      "correct": 0,
+      "explanation": "Independence under CPS 510 is fundamentally about the absence of relationships that could compromise judgement — this includes employment, material business dealings, family ties, and cross-directorships. It's broader than just 'not being an executive.' When speaking with senior leaders, the key phrase is 'free from any interest, position, or relationship that might influence objectivity.' Tenure can be a factor (CPS 510 flags directors beyond 10 years), but it alone doesn't define independence."
+    },
+    {
+      "id": "bgov-002",
+      "type": "mcq",
+      "topic": "Board composition",
+      "question": "A 'non-executive director' who is a representative of a major shareholder is best described as:",
+      "options": [
+        "An independent non-executive director",
+        "An executive director with limited duties",
+        "A non-independent non-executive director",
+        "An associate director"
+      ],
+      "correct": 2,
+      "explanation": "This is a critical distinction in board composition. A director can be non-executive (not involved in day-to-day management) yet still non-independent because they represent a significant shareholder's interests. In conversation with senior leaders, you'd say they 'wear two hats' — their duty to the company can conflict with loyalty to their nominating shareholder. APRA expects boards to clearly categorise directors and disclose the basis for any independence assessment."
+    },
+    {
+      "id": "bgov-003",
+      "type": "mcq",
+      "topic": "CPS 510",
+      "question": "Under APRA's CPS 510, what is the minimum proportion of independent directors required on the board of an APRA-regulated institution?",
+      "options": [
+        "A simple majority (more than half)",
+        "At least one-third",
+        "At least two-thirds",
+        "At least one quarter"
+      ],
+      "correct": 0,
+      "explanation": "CPS 510 requires a majority of the board to be independent directors — this is one of its headline requirements. The logic is that independent directors provide the check on management and controlling shareholders. When discussing this with senior leaders, frame it as APRA wanting 'the balance of power to sit with directors who have no dog in the fight other than the institution's soundness.' This is stricter than the ASX Corporate Governance Principles, which also recommend a majority but frame it as a recommendation rather than a prudential standard."
+    },
+    {
+      "id": "bgov-004",
+      "type": "mcq",
+      "topic": "Board Chair",
+      "question": "CPS 510 requires that the Chair of an APRA-regulated institution's board must be:",
+      "options": [
+        "A former CEO of a comparable institution",
+        "An independent director who does not hold the role of CEO",
+        "Elected annually by shareholders",
+        "Approved by APRA before appointment"
+      ],
+      "correct": 1,
+      "explanation": "CPS 510 mandates that the Chair must be independent and must not simultaneously be the CEO. This separation is fundamental to governance architecture — the Chair leads the board that oversees the CEO. If one person held both roles, they'd essentially be supervising themselves. In senior conversations, you'd describe this as 'maintaining the structural separation between those who direct and those who manage.' The Chair sets the board agenda, manages board dynamics, and is the CEO's primary sounding board — all of which require independence."
+    },
+    {
+      "id": "bgov-005",
+      "type": "matching",
+      "topic": "Board committees",
+      "question": "Match each board committee to its primary accountability:",
+      "pairs": [
+        {
+          "left": "Audit Committee",
+          "right": "Integrity of financial reporting and external audit oversight"
+        },
+        {
+          "left": "Risk Committee",
+          "right": "Oversight of the risk management framework and risk appetite"
+        },
+        {
+          "left": "Remuneration Committee",
+          "right": "Ensuring remuneration policies align incentives with prudent risk-taking"
+        },
+        {
+          "left": "Nomination Committee",
+          "right": "Board composition, succession planning, and director selection"
+        }
+      ],
+      "explanation": "These four committees form the governance infrastructure of an APRA-regulated board. The Audit Committee guards financial integrity, the Risk Committee ensures risk is managed within appetite, the Remuneration Committee aligns pay with long-term soundness (critical post-Royal Commission), and the Nomination Committee ensures the board itself stays fit for purpose. In senior discussions, note that committees 'recommend, not decide' — ultimate accountability stays with the full board. CPS 510 requires at least Audit and Risk committees for larger institutions."
+    },
+    {
+      "id": "bgov-006",
+      "type": "mcq",
+      "topic": "Board accountability vs management",
+      "question": "Which of the following is typically a 'reserved matter' that cannot be delegated from the board to management?",
+      "options": [
+        "Approval of the annual operating budget within strategy",
+        "Approval of the institution's risk appetite statement",
+        "Hiring of senior managers below executive level",
+        "Day-to-day credit approval decisions within policy"
+      ],
+      "correct": 1,
+      "explanation": "The Risk Appetite Statement (RAS) is a cornerstone reserved matter — it defines the boundaries within which management must operate. Boards can delegate execution but cannot delegate their accountability for setting the appetite itself. In senior conversations, the language is 'the board sets the guardrails, management drives within them.' Other typical reserved matters include strategy approval, CEO appointment, dividend policy, and material acquisitions. The delegation framework document should clearly articulate what stays with the board versus what flows to management."
+    },
+    {
+      "id": "bgov-007",
+      "type": "mcq",
+      "topic": "Fiduciary duties",
+      "question": "Under the Corporations Act 2001, a director's 'duty of care and diligence' (s180) requires them to act with the degree of care that:",
+      "options": [
+        "A reasonable person in a like position would exercise in the corporation's circumstances",
+        "An expert in the field of the corporation's business would exercise",
+        "The director personally considers appropriate given their own expertise",
+        "A prudent person would exercise in managing their own affairs"
+      ],
+      "correct": 0,
+      "explanation": "Section 180 sets an objective standard — it asks 'what would a reasonable person in this director's position do, given this company's circumstances?' This is important because it's neither a counsel-of-perfection standard nor a purely subjective one. In senior discussions, this means directors can't hide behind ignorance ('I didn't understand the risk report') but equally aren't expected to be domain experts in everything. The business judgement rule (s180(2)) provides a safe harbour where directors informed themselves, acted rationally, and had no personal interest."
+    },
+    {
+      "id": "bgov-008",
+      "type": "matching",
+      "topic": "Fiduciary duties",
+      "question": "Match each director duty to the behaviour it prohibits:",
+      "pairs": [
+        {
+          "left": "Duty of care and diligence (s180)",
+          "right": "Failing to adequately inform oneself before making a board decision"
+        },
+        {
+          "left": "Duty to act in good faith (s181)",
+          "right": "Making decisions for an improper purpose or not in the company's best interests"
+        },
+        {
+          "left": "Duty not to improperly use position (s182)",
+          "right": "Using directorship to gain personal advantage or cause detriment to the company"
+        },
+        {
+          "left": "Duty not to improperly use information (s183)",
+          "right": "Trading on or disclosing confidential board information for personal benefit"
+        }
+      ],
+      "explanation": "These four duties from the Corporations Act are the bedrock of director accountability. They overlap but address different mischief — s180 targets laziness or recklessness, s181 targets misaligned purpose, s182 targets self-dealing through position, and s183 targets information abuse. In senior conversations, you'd note that these duties are owed to the company (not individual shareholders), they can't be contracted out of, and breach can lead to both civil penalties and criminal prosecution. Post-Royal Commission, regulators have signalled willingness to pursue individual directors."
+    },
+    {
+      "id": "bgov-009",
+      "type": "mcq",
+      "topic": "Delegation framework",
+      "question": "In a well-designed delegation framework, what is the primary purpose of 'sub-delegation limits'?",
+      "options": [
+        "To allow the CEO to pass all board-delegated authorities to their direct reports without constraint",
+        "To define how far below the CEO board-delegated authorities can be cascaded, with what limits at each level",
+        "To prevent any delegation beyond the CEO level",
+        "To give the board direct authority over middle management decisions"
+      ],
+      "correct": 1,
+      "explanation": "Sub-delegation is how operational reality works — the CEO can't personally approve every transaction, so authorities cascade downward with progressively tighter limits. A good framework specifies who can sub-delegate, to whom, with what monetary or risk thresholds, and which authorities are 'personal to role' (cannot be further delegated). In senior conversations, the key insight is that delegation transfers authority but never accountability — the CEO remains accountable to the board for how sub-delegated authorities are exercised across the organisation."
+    },
+    {
+      "id": "bgov-010",
+      "type": "mcq",
+      "topic": "Board information flows",
+      "question": "What characterises 'good' board papers in governance best practice?",
+      "options": [
+        "Maximum detail so directors can form their own analysis from raw data",
+        "Concise papers with a clear recommendation, key risks highlighted, and options considered",
+        "Verbal briefings only to protect information security",
+        "Papers distributed at the meeting to ensure freshness of information"
+      ],
+      "correct": 1,
+      "explanation": "Good board papers respect directors' time while giving them what they need to exercise judgement. The hallmarks are: an executive summary with a clear recommendation, the 'so what' up front, risks and mitigants identified, alternatives considered and why they were rejected, and papers distributed well in advance (typically 5-7 business days). In senior conversations, you'd say 'the quality of board papers is a proxy for the quality of management thinking.' Poor papers — either too voluminous or too thin — are a red flag for governance effectiveness and often surface in board effectiveness reviews."
+    },
+    {
+      "id": "bgov-011",
+      "type": "mcq",
+      "topic": "Board effectiveness reviews",
+      "question": "Under CPS 510, how frequently must an APRA-regulated institution conduct an independent review of board performance?",
+      "options": [
+        "Annually",
+        "Every two years",
+        "At least every three years",
+        "Only when directed by APRA"
+      ],
+      "correct": 2,
+      "explanation": "CPS 510 requires boards to conduct a performance review at least annually, with an independent (external) review at least every three years. The annual self-assessment keeps continuous improvement ticking, while the triennial external review brings fresh eyes and benchmarking against better practice. In senior conversations, you'd note that effectiveness reviews assess not just processes but dynamics — the quality of challenge, whether dissent is welcomed, information flows, and whether the board's composition matches its strategic needs. The external reviewer's independence is key to honest findings."
+    },
+    {
+      "id": "bgov-012",
+      "type": "matching",
+      "topic": "Board effectiveness reviews",
+      "question": "Match the board effectiveness review element to what it typically assesses:",
+      "pairs": [
+        {
+          "left": "Board composition assessment",
+          "right": "Whether skills, experience, and diversity match strategic needs"
+        },
+        {
+          "left": "Board dynamics assessment",
+          "right": "Quality of debate, constructive challenge, and director engagement"
+        },
+        {
+          "left": "Board processes assessment",
+          "right": "Adequacy of papers, meeting frequency, and information flows"
+        },
+        {
+          "left": "Individual director assessment",
+          "right": "Each director's contribution, preparation, and ongoing fitness"
+        }
+      ],
+      "explanation": "Board effectiveness reviews are multi-dimensional — a board might have excellent processes but poor dynamics (directors don't challenge), or great composition on paper but individuals underperforming. External reviewers typically interview each director confidentially, observe meetings, and review papers. In senior conversations, emphasise that the real value is in surfacing the 'undiscussables' — the issues everyone knows about but no one raises. Post-review action plans should be tracked by the Chair and reported to APRA if material issues are found."
+    },
+    {
+      "id": "bgov-013",
+      "type": "mcq",
+      "topic": "Conflicts of interest",
+      "question": "Under the Corporations Act, a director with a material personal interest in a matter being considered by the board must:",
+      "options": [
+        "Resign from the board immediately",
+        "Disclose the nature and extent of the interest and (unless the board resolves otherwise) not be present during deliberation or vote",
+        "Simply note the conflict in the minutes and continue participating",
+        "Seek ASIC approval before participating in the decision"
+      ],
+      "correct": 1,
+      "explanation": "Section 195 of the Corporations Act requires disclosure and, by default, exclusion from deliberation and voting. The board can resolve to allow the director to remain if they believe the interest doesn't disqualify, but the default position is recusal. In senior conversations, the vocabulary is 'declare and recuse' — the director raises the conflict, the nature is recorded, and they leave the room for that agenda item. This protects both the director (from later allegations of self-dealing) and the board (from tainted decisions). Standing notices cover ongoing interests; specific notices cover situational ones."
+    },
+    {
+      "id": "bgov-014",
+      "type": "mcq",
+      "topic": "Conflicts of interest",
+      "question": "What is the difference between a 'standing notice' and a 'specific notice' of a director's conflict of interest?",
+      "options": [
+        "A standing notice covers an ongoing interest (e.g., shares in a supplier) while a specific notice relates to a particular transaction before the board",
+        "A standing notice is given verbally while a specific notice must be in writing",
+        "A standing notice applies only to non-executive directors while a specific notice applies to all directors",
+        "There is no legal difference; the terms are interchangeable"
+      ],
+      "correct": 0,
+      "explanation": "Standing notices (s192) are efficient mechanisms for directors with ongoing interests — for example, a director who holds shares in a counterparty gives a standing notice once rather than re-declaring at every meeting where that counterparty arises. Specific notices (s191) relate to a particular matter on the agenda. In senior conversations, you'd note that standing notices must be kept current — if the nature or extent of the interest changes, the notice must be updated. The company secretary typically maintains a conflicts register tracking both types, which is reviewed at each board meeting."
+    },
+    {
+      "id": "bgov-015",
+      "type": "matching",
+      "topic": "Board composition",
+      "question": "Match each board composition concept to its purpose:",
+      "pairs": [
+        {
+          "left": "Skills matrix",
+          "right": "Maps the competencies the board needs against what current directors provide, identifying gaps"
+        },
+        {
+          "left": "Board tenure policy",
+          "right": "Ensures renewal by limiting how long directors serve, preventing groupthink"
+        },
+        {
+          "left": "Diversity policy",
+          "right": "Brings varied perspectives to reduce blind spots in board judgement"
+        },
+        {
+          "left": "Fit and proper assessment",
+          "right": "Confirms each director meets character, competence, and capacity requirements"
+        }
+      ],
+      "explanation": "These four tools work together to build an effective board. The skills matrix is diagnostic (what do we need?), tenure policy drives renewal (fresh perspectives), diversity policy broadens the lens (avoiding homogeneous thinking), and fit and proper is the entry gate (is this person suitable?). In senior conversations, emphasise that CPS 510 requires boards to maintain a board renewal policy and that APRA expects the skills matrix to evolve with the institution's strategy — a board preparing for digital transformation needs different skills than one managing a run-off portfolio."
+    },
+    {
+      "id": "bgov-016",
+      "type": "mcq",
+      "topic": "Collective vs individual accountability",
+      "question": "When a board makes a collective decision that later proves harmful, under Australian law which statement is most accurate?",
+      "options": [
+        "Only the Chair is personally liable as the leader of the board",
+        "Each director who participated bears individual responsibility for ensuring they exercised proper care and diligence in that collective decision",
+        "Collective board decisions shield individual directors from personal liability",
+        "Only directors who voted in favour are liable; those who abstained are protected"
+      ],
+      "correct": 1,
+      "explanation": "This is a nuance that catches people out: boards decide collectively, but liability attaches individually. Each director must satisfy themselves — through adequate preparation, questioning, and judgement — that the decision was sound. You cannot hide behind the collective. In senior conversations, the phrase is 'collective decision-making, individual accountability.' A director who voted against a decision or formally recorded dissent has better (but not absolute) protection. This is why minutes must accurately record decisions, who was present, and any dissenting views."
+    },
+    {
+      "id": "bgov-017",
+      "type": "mcq",
+      "topic": "Board Chair",
+      "question": "Which of the following best describes the Chair's role in managing 'constructive challenge' at board meetings?",
+      "options": [
+        "Ensuring unanimity by resolving disagreements before they reach the boardroom",
+        "Creating an environment where directors feel safe to question, probe, and disagree with management and each other",
+        "Acting as the primary challenger of management on behalf of all directors",
+        "Limiting debate time to ensure the agenda is completed efficiently"
+      ],
+      "correct": 1,
+      "explanation": "The Chair's role in challenge is environmental, not personal — they create the conditions for robust debate rather than being the sole challenger. A strong Chair draws out quieter directors, prevents dominant personalities from crowding discussion, and makes it safe to disagree with the CEO or popular positions. In senior conversations, you'd say 'the Chair sets the tone for intellectual honesty in the room.' Boards that lack constructive challenge often exhibit groupthink — a governance failure that regulators specifically look for in board effectiveness reviews and supervisory assessments."
+    },
+    {
+      "id": "bgov-018",
+      "type": "matching",
+      "topic": "Board accountability vs management",
+      "question": "Match each governance concept to whether it sits with the Board or Management:",
+      "pairs": [
+        {
+          "left": "Setting strategic direction and risk appetite",
+          "right": "Board accountability — cannot be delegated"
+        },
+        {
+          "left": "Executing strategy within approved risk appetite",
+          "right": "Management accountability — delegated by the board"
+        },
+        {
+          "left": "Appointing and removing the CEO",
+          "right": "Board accountability — cannot be delegated"
+        },
+        {
+          "left": "Organisational design and resource allocation within budget",
+          "right": "Management accountability — delegated by the board"
+        },
+        {
+          "left": "Approving material policies (risk, compliance, remuneration)",
+          "right": "Board accountability — cannot be delegated"
+        }
+      ],
+      "explanation": "The board-management boundary is one of the most important governance concepts to articulate clearly. The board directs and oversees; management executes and reports. In senior conversations, the shorthand is 'noses in, fingers out' — the board should probe deeply but not reach down into operational decisions. Problems arise in both directions: boards that rubber-stamp (under-governing) and boards that micromanage (over-governing). The delegation framework is the formal document that draws this line, and it should be reviewed annually to ensure it remains fit for purpose as the organisation evolves."
+    },
+    {
+      "id": "bgov-019",
+      "type": "mcq",
+      "topic": "Board succession planning",
+      "question": "Who bears primary responsibility for board succession planning in an APRA-regulated institution?",
+      "options": [
+        "The CEO, as they understand what leadership capabilities the organisation needs",
+        "The Nomination Committee, working with the Chair and informed by the board skills matrix",
+        "The company secretary, as the administrative head of board operations",
+        "APRA directly, through its fit and proper assessment process"
+      ],
+      "correct": 1,
+      "explanation": "Board succession planning is a core function of the Nomination Committee, typically led in close partnership with the Chair. CPS 510 requires boards to have a board renewal policy that ensures orderly succession — avoiding situations where multiple directors depart simultaneously, leaving capability gaps. In senior conversations, the key vocabulary is 'pipeline planning against the skills matrix' — the Nomination Committee identifies future gaps (retirements, tenure limits) and proactively builds a candidate pipeline mapped to the competencies the board will need as strategy evolves."
+    },
+    {
+      "id": "bgov-020",
+      "type": "matching",
+      "topic": "Board induction programs",
+      "question": "Match each element of a board induction program to its primary purpose:",
+      "pairs": [
+        {
+          "left": "Management presentations by each executive",
+          "right": "Gives the new director a comprehensive view of each business unit's strategy, risks, and performance"
+        },
+        {
+          "left": "Site visits to key operations",
+          "right": "Provides first-hand understanding of the business beyond boardroom reports"
+        },
+        {
+          "left": "Meetings with external auditor and regulators",
+          "right": "Establishes independent relationships outside the management information channel"
+        },
+        {
+          "left": "Review of board papers from the prior 12 months",
+          "right": "Builds context on recent decisions, ongoing issues, and the board's deliberative history"
+        }
+      ],
+      "explanation": "A structured induction program accelerates a new director's ability to contribute meaningfully. CPS 510 expects boards to ensure new directors can fulfil their responsibilities from the outset, which means more than handing over a compliance manual. In senior conversations, you'd describe induction as 'reducing the time to effective contribution' — a well-inducted director can challenge management constructively within their first few meetings rather than spending six months in passive observation. The Chair typically oversees the program with support from the company secretary."
+    },
+    {
+      "id": "bgov-021",
+      "type": "mcq",
+      "topic": "In-camera sessions",
+      "question": "What is the primary governance purpose of 'in-camera' (executive) sessions where the board meets without management present?",
+      "options": [
+        "To discuss director remuneration packages confidentially",
+        "To allow directors to speak candidly about management performance, board dynamics, and sensitive matters without the inhibiting presence of executives",
+        "To comply with a legal requirement that boards meet privately at least once per quarter",
+        "To review and approve the minutes of the previous meeting"
+      ],
+      "correct": 1,
+      "explanation": "In-camera sessions (also called 'executive sessions' or 'non-executive only' time) remove the power dynamic that exists when the CEO and management are in the room. Directors can candidly discuss CEO performance, succession, whether they're getting the right information, and concerns they might self-censor otherwise. In senior conversations, the phrase is 'creating space for the board to govern the governor.' While not mandated by statute, in-camera sessions are considered essential best practice under CPS 510's expectations for effective board oversight, and most well-governed boards schedule them as a standing agenda item."
+    },
+    {
+      "id": "bgov-022",
+      "type": "mcq",
+      "topic": "Non-executive director time commitment",
+      "question": "What is the governance risk when a non-executive director holds too many board positions simultaneously?",
+      "options": [
+        "It creates conflicts of interest under the Corporations Act in all cases",
+        "It risks the director being unable to devote sufficient time and attention to adequately discharge their duties of care and diligence",
+        "It automatically disqualifies them from being classified as independent",
+        "It violates APRA's limit of three concurrent board seats per director"
+      ],
+      "correct": 1,
+      "explanation": "The risk is one of capacity, not conflict — an 'overboarded' director may lack the time to properly prepare for meetings, engage with complex papers, attend site visits, and participate in committee work. CPS 510 requires APRA-regulated boards to consider directors' other commitments when assessing fitness, and proxy advisors routinely flag directors holding excessive positions. In senior conversations, you'd say the concern is 'whether the director can bring their full intellectual weight to bear given competing demands on their time.' Most governance guidelines suggest NEDs should commit 30-50 days per year per major board seat."
+    },
+    {
+      "id": "bgov-023",
+      "type": "matching",
+      "topic": "Director independence tests",
+      "question": "Match each CPS 510 independence criterion to why it threatens independent judgement:",
+      "pairs": [
+        {
+          "left": "Former executive of the institution within the last three years",
+          "right": "Residual loyalty to former colleagues and prior decisions may inhibit objective oversight"
+        },
+        {
+          "left": "Material business relationship with the institution",
+          "right": "Financial dependence on the institution creates incentive to avoid challenging management"
+        },
+        {
+          "left": "Substantial shareholder or representative thereof",
+          "right": "Duty to the nominating shareholder may conflict with duty to the institution as a whole"
+        },
+        {
+          "left": "Cross-directorship or significant link with another director",
+          "right": "Mutual obligation or social ties may reduce willingness to challenge that director's views"
+        }
+      ],
+      "explanation": "CPS 510 specifies these relationships as factors that presumptively compromise independence — the board must affirmatively justify why a director remains independent despite any such relationship existing. The three-year 'cooling off' period for former executives is particularly important: it recognises that even after leaving, former insiders carry institutional loyalties and may be reluctant to criticise decisions they were involved in making. In senior conversations, frame these as 'bright-line indicators that trigger deeper scrutiny, not automatic disqualification' — though in practice, most boards treat them as near-disqualifying absent compelling countervailing factors."
+    },
+    {
+      "id": "bgov-024",
+      "type": "mcq",
+      "topic": "Board committee charters",
+      "question": "Which statement best describes the role of a board committee charter?",
+      "options": [
+        "It is an informal guidance note that committee members may optionally follow",
+        "It defines the committee's authority, composition requirements, responsibilities, and reporting obligations, and is approved by the full board",
+        "It is drafted by management and does not require board approval",
+        "It only needs to specify the committee's meeting frequency and quorum requirements"
+      ],
+      "correct": 1,
+      "explanation": "A committee charter is the constitutional document of the committee — it establishes its mandate, the boundaries of its delegated authority, composition requirements (e.g., minimum number of independent members, required expertise), and how it reports back to the full board. The full board approves the charter because it is delegating its own authority. In senior conversations, the key point is that 'a committee can only act within its charter' — decisions outside the charter's scope must go to the full board. CPS 510 expects charters to be reviewed regularly (typically annually) to ensure they remain fit for purpose."
+    },
+    {
+      "id": "bgov-025",
+      "type": "matching",
+      "topic": "Audit committee requirements",
+      "question": "Match each audit committee requirement to its governance rationale:",
+      "pairs": [
+        {
+          "left": "All members must be non-executive directors, majority independent",
+          "right": "Prevents management from influencing oversight of their own financial reporting"
+        },
+        {
+          "left": "At least one member must have financial expertise",
+          "right": "Ensures the committee can critically evaluate accounting judgements and audit findings"
+        },
+        {
+          "left": "Committee meets privately with the external auditor without management",
+          "right": "Allows the auditor to raise concerns about management conduct or pressure without fear of retaliation"
+        },
+        {
+          "left": "Committee oversees external auditor appointment and independence",
+          "right": "Ensures the auditor's primary loyalty is to the board and shareholders, not to management who engage them day-to-day"
+        }
+      ],
+      "explanation": "The audit committee is the board's 'guardian of financial integrity' — its requirements are designed to create a direct, unmediated channel between the external auditor and the board. Under CPS 510 and the Corporations Act (s324DA onwards), the audit committee must be positioned to detect management override of controls or aggressive accounting. In senior conversations, emphasise that the private session with the external auditor is non-negotiable — it's where auditors disclose tensions with management that wouldn't surface in a management-attended meeting."
+    },
+    {
+      "id": "bgov-026",
+      "type": "mcq",
+      "topic": "Risk committee requirements",
+      "question": "Under CPS 510, what is the expected reporting line of the Chief Risk Officer (CRO) in relation to the board Risk Committee?",
+      "options": [
+        "The CRO reports solely to the CEO with no board committee access",
+        "The CRO has a direct reporting line to the Risk Committee (in addition to any management reporting line), ensuring independent escalation of risk concerns",
+        "The CRO reports to the Audit Committee, not the Risk Committee",
+        "The CRO reports to the full board only, bypassing all committees"
+      ],
+      "correct": 1,
+      "explanation": "CPS 510 requires the CRO to have a dual reporting line — functionally to the Risk Committee and administratively to the CEO. This 'dotted line' to the board ensures the CRO can escalate concerns even if management is resistant or conflicted. In senior conversations, you'd describe this as 'giving the risk function a protected channel to the board that management cannot block.' The Risk Committee also typically has input into the CRO's appointment, removal, and remuneration, further protecting the role's independence. This architecture ensures risk appetite oversight isn't filtered solely through management's lens."
+    },
+    {
+      "id": "bgov-027",
+      "type": "mcq",
+      "topic": "Board role in strategy",
+      "question": "Which statement best describes the board's role in organisational strategy?",
+      "options": [
+        "The board develops the strategy in detail and hands it to management for execution",
+        "The board has no role in strategy — this is entirely a management responsibility",
+        "The board approves and stress-tests the strategy developed by management, monitors execution, and ensures alignment with risk appetite",
+        "The board only becomes involved in strategy when the organisation is underperforming"
+      ],
+      "correct": 2,
+      "explanation": "The board's strategic role is to 'approve, challenge, and monitor' — not to develop strategy from scratch (that's management's job) nor to rubber-stamp it. Many boards hold an annual strategy day dedicated to deep-dive debate before formal approval. In senior conversations, the vocabulary is 'the board owns the strategic direction; management owns the strategic plan.' This means the board tests assumptions, probes risks, ensures the strategy is consistent with risk appetite, and then monitors execution through KPIs and milestones. Boards that try to write strategy themselves typically undermine management accountability."
+    },
+    {
+      "id": "bgov-028",
+      "type": "mcq",
+      "topic": "Board role in crisis",
+      "question": "During an organisational crisis (e.g., major operational failure, regulatory enforcement action), what is the board's appropriate posture?",
+      "options": [
+        "Delegate entirely to management and await a post-crisis report",
+        "Take over operational management of the crisis response directly",
+        "Maintain heightened oversight — receiving frequent updates, satisfying itself that management's response is adequate, and making reserved-matter decisions as needed",
+        "Appoint an external consultant to manage both the board and management response"
+      ],
+      "correct": 2,
+      "explanation": "In crisis, the board's duty of care intensifies but the board-management boundary doesn't disappear — the board must be closely informed and actively oversee without seizing the operational reins. Directors have a duty to be informed (s180 care and diligence) which in crisis means higher-frequency reporting, potentially daily briefings, and willingness to convene at short notice. In senior conversations, frame this as 'the board tightens its oversight grip without grabbing the steering wheel.' Reserved matters (e.g., public disclosures, engagement with regulators at board level, decisions involving material financial exposure) remain with the board even during fast-moving events."
+    },
+    {
+      "id": "bgov-029",
+      "type": "mcq",
+      "topic": "Board papers and information quality",
+      "question": "A director receives board papers only two days before a meeting on a complex capital allocation decision. What is the most appropriate governance response?",
+      "options": [
+        "Read what they can and vote based on the management recommendation",
+        "Attend the meeting but abstain from voting, noting in the minutes that insufficient time was provided to discharge their duty of care",
+        "Refuse to attend the meeting entirely",
+        "Ask the company secretary to summarise the papers verbally at the start of the meeting"
+      ],
+      "correct": 1,
+      "explanation": "Directors have both the right and the obligation to ensure they can properly inform themselves before making decisions — this flows directly from the s180 duty of care. Voting on a complex matter without adequate preparation could expose a director to personal liability if the decision later proves harmful. In senior conversations, the vocabulary is 'pre-read discipline' — boards typically require papers 5-7 business days in advance, and directors who feel inadequately briefed should formally note their concern rather than participate in a decision they cannot properly evaluate. This protects both the director and the quality of board decision-making."
+    },
+    {
+      "id": "bgov-030",
+      "type": "mcq",
+      "topic": "Director access to independent advice",
+      "question": "Under governance best practice and the Corporations Act, what right do individual directors have to seek independent professional advice?",
+      "options": [
+        "Directors have no right to independent advice — all advice must flow through the CEO",
+        "Directors may seek independent advice only if a majority of the board votes to approve the request",
+        "Each director has the right to seek independent professional advice at the company's expense, typically after notifying the Chair, to properly discharge their duties",
+        "Directors may seek independent advice but must fund it personally"
+      ],
+      "correct": 2,
+      "explanation": "The right to independent advice is a critical governance safeguard — it ensures directors are not solely dependent on management for information and counsel. Under ASX Listing Rules and governance principles (reflected in most board charters), directors can obtain independent legal, financial, or other professional advice at the company's expense to discharge their duties. In senior conversations, the phrase is 'the right to access independent counsel ensures no director is information-captive to management.' CPS 510's expectation of effective oversight implicitly requires that directors have the resources to properly inform themselves, including external expertise where board papers or management explanations are insufficient."
+    }
+  ]
+}

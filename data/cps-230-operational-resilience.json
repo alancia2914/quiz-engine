@@ -1,0 +1,417 @@
+{
+  "id": "cps-230-operational-resilience",
+  "title": "CPS 230: Operational Resilience",
+  "description": "Operational risk management, business continuity, and service provider management",
+  "questions": [
+    {
+      "id": "cps230-001",
+      "type": "mcq",
+      "question": "CPS 230 Operational Risk Management is built around three pillars. Which of the following is NOT one of the three pillars?",
+      "options": [
+        "Operational risk management",
+        "Business continuity",
+        "Service provider management",
+        "Capital adequacy planning"
+      ],
+      "correct": 3,
+      "explanation": "CPS 230 is structured around three pillars: operational risk management, business continuity, and service provider management. Capital adequacy planning falls under separate prudential standards (like APS 110 for ADIs). The genius of CPS 230 is that it consolidates what were previously separate standards (CPS 231 and CPS 232) into a single integrated framework, recognising that outsourcing risk, operational resilience, and continuity planning are deeply interconnected."
+    },
+    {
+      "id": "cps230-002",
+      "type": "mcq",
+      "question": "Under CPS 230, what is the notification timeframe to APRA when a material operational risk incident occurs?",
+      "options": [
+        "24 hours",
+        "48 hours",
+        "72 hours",
+        "5 business days"
+      ],
+      "correct": 2,
+      "explanation": "Entities must notify APRA within 72 hours of becoming aware of a material operational risk incident. However, if a critical operation is disrupted outside its tolerance level, the tighter 24-hour notification window applies. This two-tier approach reflects APRA\u2019s view that disruptions to critical operations demand more urgent escalation than general material incidents."
+    },
+    {
+      "id": "cps230-003",
+      "type": "mcq",
+      "question": "Under CPS 230, how quickly must an entity notify APRA when a critical operation is disrupted beyond its tolerance level?",
+      "options": [
+        "24 hours",
+        "72 hours",
+        "5 business days",
+        "10 business days"
+      ],
+      "correct": 0,
+      "explanation": "When a critical operation is disrupted outside tolerance, APRA requires notification within 24 hours \u2014 the most urgent timeframe in CPS 230. This is tighter than the 72-hour window for general material incidents, reflecting the severity of a breach in tolerance for operations that are critical to the financial system or to beneficiaries. Board members should expect to be informed immediately when this trigger is hit."
+    },
+    {
+      "id": "cps230-004",
+      "type": "mcq",
+      "question": "Which two prudential standards did CPS 230 replace when it came into effect?",
+      "options": [
+        "CPS 220 Risk Management and CPS 234 Information Security",
+        "CPS 231 Outsourcing and CPS 232 Business Continuity Management",
+        "CPS 510 Governance and CPS 520 Fit and Proper",
+        "CPS 190 Recovery Planning and CPS 900 Resolution Planning"
+      ],
+      "correct": 1,
+      "explanation": "CPS 230 consolidated CPS 231 (Outsourcing) and CPS 232 (Business Continuity Management) into a single, modernised standard. APRA\u2019s rationale was that operational resilience requires an integrated view \u2014 you can\u2019t manage continuity without understanding your service provider dependencies, and you can\u2019t manage outsourcing risk without understanding which operations are critical. CPS 220 (Risk Management) remains in force as the overarching framework within which CPS 230 sits."
+    },
+    {
+      "id": "cps230-005",
+      "type": "mcq",
+      "question": "What is the effective date of CPS 230 for significant financial institutions (SFIs)?",
+      "options": [
+        "1 January 2025",
+        "1 July 2025",
+        "1 January 2026",
+        "1 July 2026"
+      ],
+      "correct": 1,
+      "explanation": "CPS 230 takes effect on 1 July 2025 for significant financial institutions (SFIs), with transitional arrangements extending to 1 July 2026 for non-SFIs. APRA staggered the timeline because SFIs have greater systemic importance and typically more mature risk functions. Non-SFIs get an extra year to build capability, particularly around service provider registers and tolerance-level setting."
+    },
+    {
+      "id": "cps230-006",
+      "type": "matching",
+      "question": "Match each entity type with the critical operations they must identify under CPS 230:",
+      "pairs": [
+        {
+          "left": "ADIs (banks)",
+          "right": "Payments, deposits, custody, settlements"
+        },
+        {
+          "left": "Insurers",
+          "right": "Claims processing"
+        },
+        {
+          "left": "RSE licensees (super funds)",
+          "right": "Investment management and fund administration"
+        }
+      ],
+      "explanation": "CPS 230 requires entities to identify critical operations specific to their industry. For ADIs, this centres on the payments system and protecting depositors. For insurers, the priority is honouring policyholder claims. For RSE licensees, it\u2019s managing members\u2019 retirement savings through investment management and fund administration. These minimum classifications reflect each sector\u2019s core promise to its customers and the financial system."
+    },
+    {
+      "id": "cps230-007",
+      "type": "mcq",
+      "question": "Under CPS 230, tolerance levels for critical operations must include which of the following components?",
+      "options": [
+        "Maximum disruption time, maximum data loss, and minimum service levels",
+        "Recovery time objective, recovery point objective, and mean time to repair",
+        "Capital buffer, liquidity buffer, and stress test threshold",
+        "Risk appetite, risk capacity, and risk tolerance"
+      ],
+      "correct": 0,
+      "explanation": "CPS 230 requires tolerance levels to be expressed in terms of maximum disruption time (how long the operation can be down), maximum data loss (how much data can be lost without unacceptable harm), and minimum service levels (the degraded level of service that remains acceptable). While these map conceptually to IT concepts like RTO and RPO, APRA deliberately uses business-centric language to ensure boards and senior leaders engage with these as business decisions, not just technology metrics."
+    },
+    {
+      "id": "cps230-008",
+      "type": "mcq",
+      "question": "How often must business continuity plans be tested under CPS 230?",
+      "options": [
+        "Quarterly",
+        "At least annually",
+        "Every two years",
+        "Every three years"
+      ],
+      "correct": 1,
+      "explanation": "CPS 230 requires BCP testing at least annually using severe but plausible scenarios. The testing must be sufficient for internal audit to provide assurance to the board that the plans are effective. Annual testing isn\u2019t just a compliance exercise \u2014 it\u2019s how organisations discover gaps between their documented plans and actual recovery capability. Boards should be asking whether test scenarios genuinely stress the organisation or just confirm what\u2019s already known."
+    },
+    {
+      "id": "cps230-009",
+      "type": "mcq",
+      "question": "Under CPS 230, what must a business continuity plan include?",
+      "options": [
+        "A register of critical operations, trigger events, recovery actions, execution risks, and a communications strategy",
+        "Only a list of critical systems and their recovery time objectives",
+        "A capital contingency plan and liquidity stress test results",
+        "An outsourcing register and fourth-party risk assessment only"
+      ],
+      "correct": 0,
+      "explanation": "CPS 230 is prescriptive about BCP content: it must include a register of critical operations, trigger events that activate the plan, specific recovery actions, identification of execution risks (what could go wrong during recovery), and a communications strategy. This goes well beyond traditional IT disaster recovery by demanding that entities think about the full chain \u2014 from recognising a crisis, to acting on it, to managing stakeholders through it."
+    },
+    {
+      "id": "cps230-010",
+      "type": "matching",
+      "question": "Match each CPS 230 notification trigger with its required timeframe:",
+      "pairs": [
+        {
+          "left": "Material operational risk incident",
+          "right": "72 hours"
+        },
+        {
+          "left": "Critical operation disrupted outside tolerance",
+          "right": "24 hours"
+        },
+        {
+          "left": "New material service provider arrangement",
+          "right": "20 business days"
+        }
+      ],
+      "explanation": "CPS 230 establishes a tiered notification regime reflecting urgency. Critical operations breaching tolerance (24 hours) demand the fastest response because they threaten financial system stability or consumer protection. Material incidents (72 hours) are serious but may not yet threaten critical operations. New material service provider arrangements (20 business days) are prospective \u2014 APRA wants visibility into concentration risk and dependency changes before they become embedded."
+    },
+    {
+      "id": "cps230-011",
+      "type": "mcq",
+      "question": "Under CPS 230, what is required regarding fourth-party risk?",
+      "options": [
+        "Fourth parties are excluded from the standard\u2019s scope",
+        "Entities must directly contract with all fourth parties",
+        "Material service provider agreements must address the management of fourth-party arrangements",
+        "Fourth parties must be registered with APRA directly"
+      ],
+      "correct": 2,
+      "explanation": "CPS 230 recognises that critical operations often depend on supply chains extending beyond direct service providers. Entities must ensure their material service provider agreements address fourth-party risk \u2014 meaning the sub-contractors and technology platforms that your providers rely on. This was a hard lesson from incidents where bank outages were caused not by their direct vendor, but by a vendor\u2019s vendor. Boards should ask: \u2018Do we know who our providers depend on?\u2019"
+    },
+    {
+      "id": "cps230-012",
+      "type": "mcq",
+      "question": "Which board responsibilities under CPS 230 are specifically called out?",
+      "options": [
+        "Approve the BCP, approve tolerance levels, and approve the service provider management policy",
+        "Conduct annual BCP testing and sign off individual service provider contracts",
+        "Appoint the CRO and approve the risk appetite statement only",
+        "Review all operational incidents within 48 hours of occurrence"
+      ],
+      "correct": 0,
+      "explanation": "CPS 230 places specific accountability on the board to approve three key elements: the business continuity plan, tolerance levels for critical operations, and the service provider management policy. This is deliberate \u2014 APRA wants boards to own these decisions rather than delegating them to operational teams. A board that has approved a tolerance level of \u2018maximum 4 hours disruption\u2019 for payments processing is making a strategic commitment about what level of resilience the entity will invest in."
+    },
+    {
+      "id": "cps230-013",
+      "type": "mcq",
+      "question": "What is the relationship between CPS 230 and CPS 220?",
+      "options": [
+        "CPS 230 replaced CPS 220 entirely",
+        "CPS 230\u2019s operational risk framework sits within the broader CPS 220 risk management framework",
+        "CPS 220 is a subset of CPS 230",
+        "They are entirely independent standards with no relationship"
+      ],
+      "correct": 1,
+      "explanation": "CPS 230 operates within the broader CPS 220 risk management framework. Think of CPS 220 as the \u2018parent\u2019 standard that requires a holistic risk management framework, and CPS 230 as a deep-dive into one critical risk category \u2014 operational risk. The entity\u2019s operational risk management under CPS 230 should be consistent with and embedded within the risk appetite statement and risk management strategy required by CPS 220. They are complementary, not competing."
+    },
+    {
+      "id": "cps230-014",
+      "type": "mcq",
+      "question": "Under CPS 230, how frequently must entities submit their material service provider register to APRA?",
+      "options": [
+        "Quarterly",
+        "Annually",
+        "Every two years",
+        "Only upon request"
+      ],
+      "correct": 1,
+      "explanation": "Entities must submit their material service provider register to APRA annually. This gives APRA a system-wide view of concentration risk \u2014 for example, if 15 ADIs all depend on the same cloud provider for core banking, that\u2019s a systemic vulnerability. The annual cadence balances regulatory visibility with administrative burden, but remember the 20-business-day notification for new arrangements means APRA also gets real-time updates on significant changes."
+    },
+    {
+      "id": "cps230-015",
+      "type": "mcq",
+      "question": "Under CPS 230, what does a comprehensive operational risk profile assessment require?",
+      "options": [
+        "Only a list of past incidents and their financial impact",
+        "A comprehensive assessment incorporating scenario analysis and supported by information systems for monitoring",
+        "An annual external audit of all operational processes",
+        "A capital charge calculation for each identified operational risk"
+      ],
+      "correct": 1,
+      "explanation": "CPS 230 requires entities to maintain a comprehensive operational risk profile that incorporates scenario analysis and is supported by adequate information systems for ongoing monitoring. This isn\u2019t a static document \u2014 it must be a living assessment that uses forward-looking scenarios (not just backward-looking loss data) and is underpinned by systems that can detect emerging risks in real time. The combination of scenario analysis and monitoring systems ensures entities are prepared for both known and novel threats."
+    },
+    {
+      "id": "cps230-016",
+      "type": "matching",
+      "question": "Match each internal control requirement under CPS 230 with its description:",
+      "pairs": [
+        {
+          "left": "Design, implement, and embed",
+          "right": "The lifecycle approach entities must take to internal controls"
+        },
+        {
+          "left": "Testing frequency commensurate with risk materiality",
+          "right": "Higher-risk controls must be tested more frequently"
+        },
+        {
+          "left": "Control gaps included in risk profile",
+          "right": "Unresolved weaknesses remain visible until remediated"
+        }
+      ],
+      "explanation": "CPS 230 takes a practical, end-to-end view of internal controls. Entities must design controls, implement them operationally, and embed them into business processes \u2014 a control that exists on paper but isn\u2019t followed is non-compliant. Testing frequency must reflect how material the risk is, so a control over payments processing gets tested more often than one over a low-risk administrative process. Critically, any identified control gaps must remain in the operational risk profile until they\u2019re actually fixed, preventing entities from acknowledging weaknesses and then ignoring them."
+    },
+    {
+      "id": "cps230-017",
+      "type": "mcq",
+      "question": "Under CPS 230, how must operational risk incidents (including near misses) be managed?",
+      "options": [
+        "Only incidents causing financial loss above $10,000 need to be recorded",
+        "Incidents must be identified, escalated, recorded, and addressed; near misses must also be captured and feed into the risk profile",
+        "Near misses are excluded because they did not result in actual harm",
+        "Incidents only need to be reported if they affect critical operations"
+      ],
+      "correct": 1,
+      "explanation": "CPS 230 requires a full incident management lifecycle: identify, escalate, record, and address. Importantly, near misses explicitly count as incidents that must be captured \u2014 they provide invaluable intelligence about control weaknesses before actual harm occurs. Both incidents and near misses must feed back into the operational risk profile and inform assessments of control effectiveness. This creates a continuous improvement loop where every event (realised or not) strengthens the entity\u2019s understanding of its risk landscape."
+    },
+    {
+      "id": "cps230-018",
+      "type": "mcq",
+      "question": "Under CPS 230, how can an entity satisfy the requirement to maintain BCP capabilities (people, technology, resources)?",
+      "options": [
+        "Only through internal resources owned directly by the entity",
+        "Through its own resources or via agreement with another party, provided the arrangement meets CPS 230\u2019s service provider requirements",
+        "By purchasing insurance coverage for business interruption losses",
+        "By documenting the resources needed without actually securing them"
+      ],
+      "correct": 1,
+      "explanation": "CPS 230 is pragmatic about how entities maintain BCP capabilities. They can use their own resources or rely on agreements with other parties (e.g., a disaster recovery provider or mutual aid arrangement). However, if they rely on another party, that arrangement must comply with CPS 230\u2019s service provider management requirements \u2014 including formal agreements, monitoring, and exit planning. This prevents entities from having recovery plans that depend on handshake arrangements with no contractual teeth."
+    },
+    {
+      "id": "cps230-019",
+      "type": "matching",
+      "question": "Match each BCP review trigger with why it necessitates an update:",
+      "pairs": [
+        {
+          "left": "Changes in legal or organisational structure",
+          "right": "Recovery procedures and escalation paths may no longer be valid"
+        },
+        {
+          "left": "Changes in business mix or strategy",
+          "right": "New critical operations may have emerged or existing ones changed"
+        },
+        {
+          "left": "Testing shortcomings identified",
+          "right": "Plan gaps discovered during exercises must be addressed"
+        },
+        {
+          "left": "Changes to the entity\u2019s risk profile",
+          "right": "New threats or vulnerabilities require different response actions"
+        }
+      ],
+      "explanation": "CPS 230 requires annual BCP review and update, but also mandates updates whenever material changes occur. Legal or structural changes (like mergers or demergers) can invalidate assumptions about who does what in a crisis. Strategy or business mix changes may introduce new critical operations not covered by the existing plan. Testing shortcomings provide direct evidence of plan inadequacy. Risk profile changes (such as adopting new technology or entering new markets) can introduce threats the current plan doesn\u2019t address. The BCP must be a living document, not an annual compliance exercise."
+    },
+    {
+      "id": "cps230-020",
+      "type": "mcq",
+      "question": "What role does internal audit play in relation to business continuity under CPS 230?",
+      "options": [
+        "Internal audit is responsible for writing and maintaining the BCP",
+        "Internal audit must periodically review the BCP and provide assurance to the board that it is credible and testing procedures are adequate",
+        "Internal audit only reviews the BCP if APRA specifically requests it",
+        "Internal audit\u2019s role is limited to testing IT disaster recovery systems"
+      ],
+      "correct": 1,
+      "explanation": "CPS 230 assigns internal audit a critical assurance role: it must periodically review the BCP and provide the board with assurance that the plan is credible and that testing procedures are adequate. This means internal audit needs to go beyond checking whether a BCP document exists \u2014 they must assess whether it would actually work in a crisis. The board relies on this independent assurance to satisfy itself that management\u2019s claims about resilience capability are well-founded."
+    },
+    {
+      "id": "cps230-021",
+      "type": "mcq",
+      "question": "What must a comprehensive service provider management policy under CPS 230 address?",
+      "options": [
+        "Only the process for selecting new service providers",
+        "The entity\u2019s approach to entering, monitoring, substituting, and exiting service provider arrangements, including risk management of material service providers",
+        "A blanket prohibition on outsourcing critical operations",
+        "Only the financial terms and service level agreements for each provider"
+      ],
+      "correct": 1,
+      "explanation": "CPS 230 requires a comprehensive policy covering the full lifecycle of service provider relationships: entering (due diligence and selection), monitoring (ongoing performance and risk assessment), substituting (when a provider is underperforming or failing), and exiting (orderly transition away). For material service providers, additional risk management requirements apply. This lifecycle approach ensures entities don\u2019t just focus on procurement but maintain ongoing control and readiness to move if a relationship deteriorates."
+    },
+    {
+      "id": "cps230-022",
+      "type": "matching",
+      "question": "Match each required element of a formal service provider agreement under CPS 230 with its purpose:",
+      "pairs": [
+        {
+          "left": "Service levels and information rights",
+          "right": "Enables monitoring of provider performance and access to data"
+        },
+        {
+          "left": "Audit access and sub-contracting controls",
+          "right": "Ensures oversight of the provider and its fourth-party dependencies"
+        },
+        {
+          "left": "BCP expectations and termination provisions",
+          "right": "Protects continuity if the provider is disrupted or the relationship ends"
+        }
+      ],
+      "explanation": "CPS 230 prescribes minimum content for formal service provider agreements to ensure entities retain meaningful control. Service levels and information rights let you measure performance and access your own data. Audit access and sub-contracting controls address the \u2018black box\u2019 problem where entities lose visibility once they outsource. BCP expectations ensure the provider can support your continuity obligations, while termination provisions guarantee you can exit without being held hostage. Together, these elements prevent the common trap of outsourcing the activity but not the accountability."
+    },
+    {
+      "id": "cps230-023",
+      "type": "mcq",
+      "question": "Under CPS 230, which of the following best describes how a material service provider (MSP) is identified?",
+      "options": [
+        "Any provider with an annual contract value exceeding $1 million",
+        "A provider whose failure or disruption could materially impact the entity\u2019s operations, critical operations, or financial position, considering factors like substitutability and concentration",
+        "Only providers located offshore or in a different jurisdiction",
+        "Any provider that has access to customer data regardless of the service provided"
+      ],
+      "correct": 1,
+      "explanation": "CPS 230 takes a risk-based approach to identifying material service providers rather than applying a simple dollar threshold. The key test is whether the provider\u2019s failure or disruption could materially impact the entity\u2019s operations, critical operations, or financial position. Factors include how easily the provider could be substituted, concentration risk (how many entities rely on the same provider), and the nature of the service relative to critical operations. This ensures small but irreplaceable providers aren\u2019t overlooked just because their contract value is low."
+    },
+    {
+      "id": "cps230-024",
+      "type": "mcq",
+      "question": "What are the requirements for the material service provider (MSP) register under CPS 230?",
+      "options": [
+        "Entities must maintain a register internally but never share it with APRA",
+        "Entities must maintain a register of all MSPs and submit it to APRA annually, plus notify APRA within 20 business days of entering new MSP arrangements",
+        "Only MSPs providing IT services need to be included in the register",
+        "The register is only required for arrangements entered after 1 July 2025"
+      ],
+      "correct": 1,
+      "explanation": "The MSP register is a key transparency mechanism in CPS 230. Entities must maintain a comprehensive register covering all material service providers and submit it to APRA annually. Additionally, new MSP arrangements trigger a 20-business-day notification to APRA. This dual mechanism gives APRA both a periodic comprehensive view and real-time visibility of changes. APRA uses this data to monitor system-wide concentration risk \u2014 identifying where multiple regulated entities depend on the same critical provider."
+    },
+    {
+      "id": "cps230-025",
+      "type": "mcq",
+      "question": "How does CPS 230 handle pre-existing service provider arrangements that were in place before the standard commenced?",
+      "options": [
+        "All pre-existing arrangements are permanently exempt from CPS 230 requirements",
+        "Pre-existing arrangements must be immediately terminated and re-negotiated",
+        "Transitional provisions apply, with non-SFIs given until 1 July 2026 to bring pre-existing arrangements into compliance",
+        "Pre-existing arrangements only need to comply if the contract is renewed"
+      ],
+      "correct": 2,
+      "explanation": "CPS 230 recognises that entities cannot instantly renegotiate hundreds of existing contracts. Transitional provisions give non-SFIs until 1 July 2026 to bring pre-existing service provider arrangements into compliance with the new requirements. This pragmatic approach avoids market disruption while setting a firm deadline. Entities should be prioritising their most material arrangements for early compliance and using contract renewals as natural opportunities to embed CPS 230 requirements into agreements."
+    },
+    {
+      "id": "cps230-026",
+      "type": "mcq",
+      "question": "What does CPS 230 require regarding technology risk and information assets?",
+      "options": [
+        "Technology risk is entirely covered by CPS 234 and excluded from CPS 230",
+        "Entities must monitor the age and health of information assets supporting critical operations, with technology risk management linking to CPS 234 requirements",
+        "Only assets purchased in the last five years need to be monitored",
+        "Technology risk assessment is only required for cloud-based systems"
+      ],
+      "correct": 1,
+      "explanation": "CPS 230 explicitly requires entities to monitor the age and health of information assets that support critical operations. Ageing, unsupported, or poorly-maintained technology is a major source of operational disruption. This requirement connects directly to CPS 234 (Information Security), which addresses the security of those same assets. Together, CPS 230 and CPS 234 create a comprehensive view: CPS 230 ensures assets can support continuity, while CPS 234 ensures they\u2019re protected from threats."
+    },
+    {
+      "id": "cps230-027",
+      "type": "mcq",
+      "question": "Under CPS 230, what must an entity do before providing services to another APRA-regulated entity?",
+      "options": [
+        "Obtain APRA\u2019s prior written approval for the arrangement",
+        "Assess the risks that providing the service may pose to its own operations and ensure it can meet its own obligations",
+        "Decline the arrangement if it involves critical operations",
+        "There are no specific requirements for entities providing services to others"
+      ],
+      "correct": 1,
+      "explanation": "CPS 230 doesn\u2019t just address entities as consumers of services \u2014 it also considers entities as providers. Before providing services to another party, an entity must assess the risks this creates for its own operations. For example, a large ADI providing platform services to smaller institutions must consider whether demand spikes from those clients could compromise its own critical operations. This two-way lens prevents entities from inadvertently creating vulnerabilities by taking on service obligations they cannot safely sustain."
+    },
+    {
+      "id": "cps230-028",
+      "type": "matching",
+      "question": "Match each prudential standard with how it relates to CPS 230:",
+      "pairs": [
+        {
+          "left": "CPS 234 Information Security",
+          "right": "Secures the information assets whose continuity CPS 230 protects"
+        },
+        {
+          "left": "CPS 220 Risk Management",
+          "right": "Provides the overarching risk management framework within which CPS 230 operates"
+        },
+        {
+          "left": "SPS 515 Strategic Planning and Member Outcomes",
+          "right": "Connects superannuation operational resilience to member outcome obligations"
+        }
+      ],
+      "explanation": "CPS 230 doesn\u2019t operate in isolation \u2014 it intersects with multiple prudential standards. CPS 234 handles information security for the same technology assets that CPS 230 requires to be resilient and well-maintained. CPS 220 is the parent risk management framework that sets the governance context (risk appetite, board responsibilities) within which operational risk management sits. For superannuation entities, SPS 515 creates the link between operational resilience and the ultimate purpose of delivering good member outcomes. Understanding these connections is essential for a coherent compliance approach rather than treating each standard as a siloed obligation."
+    }
+  ]
+}

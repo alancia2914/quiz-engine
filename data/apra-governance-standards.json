@@ -1,0 +1,326 @@
+{
+  "id": "apra-governance-standards",
+  "title": "APRA Governance & Supporting Standards",
+  "description": "CPS 510, CPS 511, CPS 234, naming conventions, and the prudential framework",
+  "questions": [
+    {
+      "id": "aprgs-001",
+      "type": "mcq",
+      "question": "Under CPS 510 Governance, which committees must the board of an APRA-regulated entity establish?",
+      "options": [
+        "Audit, Risk, Remuneration, and Nomination committees",
+        "Audit and Risk committees only",
+        "Audit, Risk, and Technology committees",
+        "Whatever committees the board deems appropriate with no minimum requirements"
+      ],
+      "correct": 0,
+      "explanation": "CPS 510 mandates four board committees: Audit, Risk, Remuneration, and Nomination. Each serves a distinct governance function — Audit for financial integrity and internal controls, Risk for risk oversight, Remuneration for aligning pay with prudent risk-taking, and Nomination for board renewal and skills. For SFIs, there are additional requirements around committee composition (majority independent directors, independent chairs). This structure ensures no single committee or individual has unchecked influence."
+    },
+    {
+      "id": "aprgs-002",
+      "type": "mcq",
+      "question": "CPS 510 requires boards to have a majority of independent directors. What is a key factor that would compromise director independence under APRA's framework?",
+      "options": [
+        "Having served on the board for more than 2 years",
+        "Being a substantial shareholder or having a material business relationship with the entity within the last 3 years",
+        "Having qualifications in the same field as the CEO",
+        "Attending fewer than 75% of board meetings"
+      ],
+      "correct": 1,
+      "explanation": "APRA considers a director non-independent if they are a substantial shareholder, have had a material business relationship with the entity within the past three years, or have other connections that could compromise objectivity. Independence is about ensuring directors can challenge management without conflicting interests. Board chairs often need to have difficult conversations with Nominations Committees when a long-serving director's relationships begin to cloud their independence."
+    },
+    {
+      "id": "aprgs-003",
+      "type": "matching",
+      "question": "Match each APRA prudential standard prefix with the industry it applies to:",
+      "pairs": [
+        { "left": "CPS", "right": "Cross-industry (all APRA-regulated entities)" },
+        { "left": "APS", "right": "ADI-specific (banks, credit unions, building societies)" },
+        { "left": "GPS", "right": "General insurance" },
+        { "left": "SPS", "right": "Superannuation (RSE licensees)" },
+        { "left": "LPS", "right": "Life insurance" }
+      ],
+      "explanation": "APRA's naming convention is essential vocabulary for anyone in prudential regulation. 'CPS' (Cross-industry Prudential Standard) applies to all regulated entities — that's why CPS 230 covers banks, insurers, and super funds alike. Industry-specific standards use APS (ADIs), GPS (general insurers), LPS (life insurers), SPS (super), and HPS (health insurers). When you see a standard number, the prefix immediately tells you who it applies to. Practice Guides (CPG, APG, etc.) sit below standards in the hierarchy — they provide guidance but aren't legally binding."
+    },
+    {
+      "id": "aprgs-004",
+      "type": "mcq",
+      "question": "What is the hierarchy between APRA Prudential Standards and Practice Guides?",
+      "options": [
+        "Practice Guides are legally binding and override Standards",
+        "Standards are legally binding requirements; Practice Guides provide non-binding guidance on how to comply",
+        "Standards and Practice Guides have equal legal weight",
+        "Practice Guides apply only to SFIs while Standards apply to all entities"
+      ],
+      "correct": 1,
+      "explanation": "Prudential Standards (CPS, APS, GPS, LPS, SPS) are legally enforceable — non-compliance can result in regulatory action. Practice Guides (CPG, APG, etc.) explain how APRA expects entities to comply but are not themselves enforceable. However, departing materially from a Practice Guide without a defensible alternative approach would likely attract supervisory attention. Senior leaders should treat Practice Guides as 'comply or explain' even though they're technically guidance, not law."
+    },
+    {
+      "id": "aprgs-005",
+      "type": "mcq",
+      "question": "Under CPS 511 Remuneration, what is the primary purpose of aligning remuneration with risk?",
+      "options": [
+        "To reduce total executive compensation costs",
+        "To ensure remuneration practices do not incentivise excessive risk-taking that could harm the entity's long-term soundness",
+        "To standardise pay across all APRA-regulated entities",
+        "To eliminate all variable remuneration for senior executives"
+      ],
+      "correct": 1,
+      "explanation": "CPS 511's core objective is ensuring remuneration design doesn't encourage behaviour that could undermine the entity's financial soundness or the interests of beneficiaries. It doesn't ban variable pay — it requires that variable remuneration includes deferral, malus, and clawback mechanisms so that rewards reflect long-term risk outcomes, not just short-term revenue. For SFIs, CPS 511 interacts closely with the Financial Accountability Regime (FAR) which imposes specific deferred remuneration requirements on accountable persons."
+    },
+    {
+      "id": "aprgs-006",
+      "type": "matching",
+      "question": "Match each prudential standard with its primary focus area:",
+      "pairs": [
+        { "left": "CPS 234", "right": "Information security and cyber resilience" },
+        { "left": "CPS 190", "right": "Recovery and exit planning" },
+        { "left": "SPS 515", "right": "Strategic planning and member outcomes" },
+        { "left": "CPS 520", "right": "Fit and proper requirements" }
+      ],
+      "explanation": "These standards form an interconnected web of prudential regulation. CPS 234 ensures entities can defend against cyber threats (and intersects with CPS 230's operational resilience requirements). CPS 190 deals with what happens when an entity is in severe distress — how it recovers or exits the market orderly. SPS 515 is unique to super and forces RSE licensees to demonstrate their strategic plans deliver good member outcomes. CPS 520 ensures the people running regulated entities are competent and of good character. A governance professional needs to see how these standards reinforce each other."
+    },
+    {
+      "id": "aprgs-007",
+      "type": "mcq",
+      "question": "Under CPS 234 Information Security, what is a key requirement regarding the board's role?",
+      "options": [
+        "The board must personally conduct penetration testing annually",
+        "The board must ensure the entity's information security capability is commensurate with the size and extent of threats to its information assets",
+        "The board must approve every individual IT security policy",
+        "The board has no specific obligations — CPS 234 is directed solely at management"
+      ],
+      "correct": 1,
+      "explanation": "CPS 234 places ultimate accountability on the board to ensure information security capability matches the entity's threat landscape. This is a proportionality requirement — a large ADI processing millions of transactions faces different threats than a small credit union. The board doesn't need to be technical, but it must satisfy itself that the entity's investment in people, processes, and technology is commensurate with its risk exposure. CPS 234 also requires entities to notify APRA within 72 hours of material information security incidents, mirroring CPS 230's notification regime."
+    },
+    {
+      "id": "aprgs-008",
+      "type": "mcq",
+      "question": "Under CPS 510, what are the minimum board composition requirements for an APRA-regulated entity?",
+      "options": [
+        "At least 3 directors, with no independence requirement",
+        "At least 5 directors, with a majority being independent and the entity maintaining a board skills matrix",
+        "At least 7 directors, all of whom must be independent",
+        "At least 5 directors, but only the Chair must be independent"
+      ],
+      "correct": 1,
+      "explanation": "CPS 510 requires a minimum of five directors on the board, with a majority being independent. Entities must also maintain a board skills matrix to identify gaps in collective capability and inform the Nomination Committee's search process. The skills matrix requirement connects CPS 510 to broader diversity expectations — APRA expects boards to have a mix of skills, experience, and perspectives that reflect the complexity of the entity's operations."
+    },
+    {
+      "id": "aprgs-009",
+      "type": "mcq",
+      "question": "CPS 510 addresses board renewal to prevent 'groupthink.' What does APRA expect regarding director tenure and succession?",
+      "options": [
+        "Directors must rotate off after exactly 6 years with no exceptions",
+        "The board must have a renewal policy including tenure limits, staggered rotation, and succession planning to maintain continuity while refreshing perspectives",
+        "There are no tenure expectations — directors can serve indefinitely if re-elected",
+        "Only the Chair is subject to tenure limits; other directors have no constraints"
+      ],
+      "correct": 1,
+      "explanation": "CPS 510 expects boards to adopt a renewal policy that balances fresh perspectives with institutional knowledge. This typically includes indicative tenure limits (often around 10 years, though not a hard cap), staggered rotation so the entire board doesn't turn over at once, and a succession plan for key roles like Chair. Staggered rotation is critical — it prevents a scenario where multiple experienced directors depart simultaneously, leaving the board without the institutional memory needed to challenge management effectively."
+    },
+    {
+      "id": "aprgs-010",
+      "type": "mcq",
+      "question": "How often does CPS 510 require boards to conduct performance reviews, and what is expected regarding external reviews?",
+      "options": [
+        "Every 5 years internally; no external review required",
+        "Annually, with an external independent review at least every 3 years",
+        "Biannually, with the external review conducted by APRA itself",
+        "Only when APRA directs the entity to undertake a review"
+      ],
+      "correct": 1,
+      "explanation": "CPS 510 requires annual board performance assessments covering individual directors, committees, and the board as a whole. At least every three years, this must include an external independent review to provide objectivity and benchmark against better practice. These reviews typically assess meeting effectiveness, decision-making quality, risk oversight capability, and the Chair's leadership. The three-year external cycle ensures the board doesn't become complacent in self-assessment."
+    },
+    {
+      "id": "aprgs-011",
+      "type": "mcq",
+      "question": "Under CPS 510, what are the requirements for managing conflicts of interest at board level?",
+      "options": [
+        "Directors must simply declare conflicts verbally at the start of each meeting",
+        "The entity must have a conflicts of interest policy, directors must disclose material personal interests, and conflicted directors must absent themselves from relevant deliberations",
+        "Conflicts only matter for the Audit Committee; other committees are exempt",
+        "Conflicts are managed solely through the fit and proper process at appointment"
+      ],
+      "correct": 1,
+      "explanation": "CPS 510 requires a robust conflicts management framework: a formal policy, standing disclosure obligations, and the expectation that conflicted directors recuse themselves from deliberation and voting on affected matters. This goes beyond mere declaration — it requires active management. The framework intersects with CPS 520 fit and proper requirements, because an unmanageable conflict (such as a substantial shareholding in a competitor) may render a person unfit to hold office."
+    },
+    {
+      "id": "aprgs-012",
+      "type": "mcq",
+      "question": "What does CPS 510 require regarding the role and independence of the Board Chair?",
+      "options": [
+        "The Chair must be independent and cannot simultaneously hold the role of CEO or any other executive position in the entity",
+        "The Chair can also be the CEO if approved by APRA",
+        "The Chair must be a former CEO of the entity to have sufficient operational knowledge",
+        "The Chair needs only to be independent at the time of appointment, not throughout their tenure"
+      ],
+      "correct": 0,
+      "explanation": "CPS 510 explicitly separates the Chair and CEO roles and requires the Chair to be an independent director. This structural separation ensures the person leading the board can objectively oversee the CEO's performance without role confusion. The Chair is responsible for managing board dynamics, ensuring robust debate, and maintaining the board's relationship with APRA. This requirement reflects lessons from governance failures where combined Chair/CEO roles concentrated power and weakened independent oversight."
+    },
+    {
+      "id": "aprgs-013",
+      "type": "matching",
+      "question": "Match each CPS 520 Fit and Proper assessment criterion with what it evaluates:",
+      "pairs": [
+        { "left": "Character", "right": "Honesty, integrity, reputation, and whether the person has been subject to disciplinary or criminal proceedings" },
+        { "left": "Competence", "right": "Skills, knowledge, and qualifications relevant to the responsibilities of the role" },
+        { "left": "Experience", "right": "Practical track record in similar roles or industries demonstrating ability to discharge duties" },
+        { "left": "Ongoing assessment", "right": "Continuous obligation to reassess fitness as circumstances change, not just at appointment" }
+      ],
+      "explanation": "CPS 520 (and its superannuation equivalent SPS 520) requires entities to assess whether responsible persons are 'fit and proper' across three dimensions: character, competence, and experience. Critically, this is not a one-off gate at appointment — entities must have processes for ongoing assessment so that changes in circumstances (such as legal proceedings or health issues) trigger a reassessment. This standard connects to CPS 510's governance framework because a board that fails to monitor fitness of its directors or senior management is itself failing its governance obligations."
+    },
+    {
+      "id": "aprgs-014",
+      "type": "mcq",
+      "question": "Under CPS 510, what are the composition requirements for board committees at Significant Financial Institutions (SFIs)?",
+      "options": [
+        "Committees can include any mix of directors and external members",
+        "Each mandatory committee must be chaired by an independent director, and the Audit, Risk, and Remuneration committees must consist solely of non-executive directors with a majority being independent",
+        "Only the Audit Committee has specific composition requirements; others are at the board's discretion",
+        "Committee members must all be independent directors with no exceptions"
+      ],
+      "correct": 1,
+      "explanation": "For SFIs, CPS 510 imposes enhanced committee composition rules: the Audit, Risk, and Remuneration committees must be composed of non-executive directors with a majority being independent, and each must have an independent chair. The Nomination Committee must have a majority of independent directors. These heightened requirements reflect the systemic importance of SFIs — their failure could destabilise the broader financial system, so APRA demands stronger independent oversight at committee level."
+    },
+    {
+      "id": "aprgs-015",
+      "type": "mcq",
+      "question": "What are the three core objectives of a remuneration framework under CPS 511?",
+      "options": [
+        "Maximising shareholder returns, minimising staff costs, and attracting the best global talent",
+        "Promoting prudent risk-taking, supporting the entity's long-term financial soundness, and meeting compliance obligations",
+        "Aligning pay to short-term profit targets, rewarding individual performance, and benchmarking against peers",
+        "Ensuring equal pay across all levels, eliminating bonuses, and capping total remuneration"
+      ],
+      "correct": 1,
+      "explanation": "CPS 511 requires remuneration frameworks to achieve three interconnected objectives: promote prudent management of risks, support the long-term financial soundness of the entity, and be consistent with meeting the entity's compliance obligations. These objectives deliberately counter short-termism — they prevent scenarios where executives are rewarded for revenue growth that masks underlying risk accumulation. The 'compliance obligations' limb is often overlooked but is critical: it means remuneration design cannot incentivise cutting corners on regulatory requirements."
+    },
+    {
+      "id": "aprgs-016",
+      "type": "mcq",
+      "question": "What makes an APRA-regulated entity a 'Significant Financial Institution' (SFI), and why does this designation matter?",
+      "options": [
+        "Any entity with more than 100 employees is automatically an SFI",
+        "APRA designates entities as SFIs based on their size, complexity, and interconnectedness; SFIs face more prescriptive governance and remuneration requirements",
+        "SFI status is self-assessed by each entity annually",
+        "Only the four major banks are SFIs; no other entities qualify"
+      ],
+      "correct": 1,
+      "explanation": "APRA designates entities as SFIs based on factors including total assets, complexity of operations, and interconnectedness with the broader financial system. SFI status triggers enhanced requirements under both CPS 510 (stricter committee composition, additional governance expectations) and CPS 511 (more prescriptive variable remuneration rules including minimum deferral periods). While the four major banks are SFIs, the designation can also apply to large insurers and other systemically important entities whose failure would have broader market consequences."
+    },
+    {
+      "id": "aprgs-017",
+      "type": "matching",
+      "question": "Match each CPS 511 variable remuneration mechanism with its purpose:",
+      "pairs": [
+        { "left": "Deferral", "right": "Delays payment of a portion of variable remuneration so risk outcomes can be assessed over time before reward is confirmed" },
+        { "left": "Malus", "right": "Reduces or cancels unvested deferred remuneration where adverse outcomes emerge before the deferred amount vests" },
+        { "left": "Clawback", "right": "Recovers variable remuneration already paid where misconduct or material risk events come to light after payment" }
+      ],
+      "explanation": "These three mechanisms form a temporal continuum of risk adjustment under CPS 511. Deferral creates the window for assessment; malus operates during that window to adjust downward before payment; clawback operates after payment when problems surface later. Together they ensure that variable remuneration genuinely reflects long-term risk outcomes rather than rewarding executives for gains that later prove illusory. For SFIs, CPS 511 specifies minimum deferral periods (typically 4-7 years for senior executives), making these mechanisms particularly powerful."
+    },
+    {
+      "id": "aprgs-018",
+      "type": "mcq",
+      "question": "What are the specific requirements for the Remuneration Committee under CPS 511?",
+      "options": [
+        "It must include the CEO and CFO to ensure operational insight into pay decisions",
+        "It must be composed of non-executive directors (majority independent for SFIs), have an independent chair, and have access to independent remuneration advice",
+        "It only needs to meet once per year to approve bonus pools",
+        "It can delegate all decisions to the Chief People Officer without board involvement"
+      ],
+      "correct": 1,
+      "explanation": "CPS 511 requires the Remuneration Committee to consist of non-executive directors (with a majority being independent for SFIs), be chaired by an independent director, and have access to independent expert advice on remuneration matters. The CEO must not be a member but may attend by invitation. This structure ensures pay decisions are made by directors who don't benefit from them, with independent advice to counter management's natural incentive to argue for higher remuneration. The committee must also oversee the design and operation of the broader remuneration framework, not just approve individual pay outcomes."
+    },
+    {
+      "id": "aprgs-019",
+      "type": "mcq",
+      "question": "How does CPS 511 interact with the Financial Accountability Regime (FAR) regarding deferred remuneration?",
+      "options": [
+        "FAR replaces CPS 511 entirely for accountable persons",
+        "CPS 511 is generally more prescriptive than FAR's baseline deferral requirements, meaning entities complying with CPS 511 will typically exceed FAR minimums",
+        "FAR applies only to ADIs while CPS 511 applies only to insurers",
+        "The two frameworks are completely independent with no overlap"
+      ],
+      "correct": 1,
+      "explanation": "CPS 511 and FAR both impose deferred remuneration requirements, but CPS 511 is generally more prescriptive. FAR requires a minimum portion of variable remuneration for accountable persons to be deferred for at least four years, but CPS 511's requirements — particularly for SFIs — often mandate longer deferral periods, more granular risk adjustment criteria, and broader coverage of personnel. In practice, an entity that fully complies with CPS 511's variable remuneration requirements will typically satisfy FAR's deferred remuneration obligations, but not necessarily vice versa."
+    },
+    {
+      "id": "aprgs-020",
+      "type": "matching",
+      "question": "Match each CPS 511 effective date with the entity type it applies to:",
+      "pairs": [
+        { "left": "1 January 2023", "right": "ADIs (banks, credit unions, building societies)" },
+        { "left": "1 July 2023", "right": "General insurers, life insurers, and RSE licensees (superannuation)" },
+        { "left": "1 January 2024", "right": "Remaining APRA-regulated entities not captured by earlier dates" }
+      ],
+      "explanation": "CPS 511's phased commencement reflects APRA's pragmatic approach to major regulatory change. ADIs commenced first (January 2023) because their remuneration practices were already more mature and they were the primary focus after the Banking Royal Commission's remuneration findings. Insurance and superannuation followed six months later (July 2023), with remaining entities given until January 2024. This staggered approach allowed APRA to identify implementation issues with the first cohort and provide guidance before later cohorts commenced."
+    },
+    {
+      "id": "aprgs-021",
+      "type": "mcq",
+      "question": "Under CPS 234, what are the requirements for security testing?",
+      "options": [
+        "Testing is optional and left entirely to management discretion",
+        "Entities must have a systematic testing program including penetration testing and vulnerability assessments, conducted with sufficient frequency and with independent assurance of the testing program's effectiveness",
+        "Only annual penetration testing by an external firm is required",
+        "Testing is only required after a security incident has occurred"
+      ],
+      "correct": 1,
+      "explanation": "CPS 234 requires entities to maintain a systematic testing program that evaluates the effectiveness of information security controls. This includes penetration testing, vulnerability assessments, and scenario-based testing, conducted at a frequency commensurate with the rate of change in vulnerabilities and threats. Critically, the standard also requires independent assurance (internal audit or external) over the testing program itself. This 'assurance over assurance' approach ensures the testing regime isn't just a compliance exercise but genuinely probes the entity's defences."
+    },
+    {
+      "id": "aprgs-022",
+      "type": "mcq",
+      "question": "Within what timeframe must an APRA-regulated entity notify APRA of a material information security incident under CPS 234?",
+      "options": [
+        "Within 24 hours of detection",
+        "Within 72 hours of becoming aware of a material information security incident",
+        "Within 7 business days of the incident being resolved",
+        "Within 30 days as part of the quarterly reporting cycle"
+      ],
+      "correct": 1,
+      "explanation": "CPS 234 requires notification to APRA within 72 hours of becoming aware of a material information security incident. 'Material' means an incident that has materially affected, or has the potential to materially affect, the entity or the interests of depositors, policyholders, or fund members. This 72-hour window parallels notification obligations under CPS 230 for operational disruptions. The requirement ensures APRA can assess systemic implications and coordinate responses, particularly where incidents may affect multiple entities or critical infrastructure."
+    },
+    {
+      "id": "aprgs-023",
+      "type": "mcq",
+      "question": "What is the purpose of recovery planning under CPS 190, and how does it differ from exit planning?",
+      "options": [
+        "Recovery planning is about IT disaster recovery; exit planning is about staff redundancies",
+        "Recovery planning prepares options to restore financial strength and viability during severe stress, while exit planning addresses orderly wind-down or transfer of business if recovery efforts fail",
+        "Recovery and exit planning are the same thing described in different sections of CPS 190",
+        "Recovery planning is only required for ADIs; exit planning applies only to super funds"
+      ],
+      "correct": 1,
+      "explanation": "CPS 190 establishes two distinct but connected planning requirements. Recovery planning involves pre-positioning the entity with credible options (such as capital raising, asset sales, or business restructuring) to restore financial strength during severe stress without needing external support. Exit planning goes further — it addresses how the entity would orderly wind down operations or transfer its business to another entity if recovery proves impossible. Both plans must be maintained, tested, and updated regularly. CPS 190 applies to all APRA-regulated entities, ensuring even smaller entities have considered these scenarios."
+    },
+    {
+      "id": "aprgs-024",
+      "type": "mcq",
+      "question": "Under SPS 515 Strategic Planning and Member Outcomes, what must an RSE licensee demonstrate?",
+      "options": [
+        "That it offers the lowest fees in the market",
+        "That its strategic objectives and business plan are designed to deliver quality outcomes for members, supported by an annual outcomes assessment",
+        "That it has consulted with all members on its investment strategy",
+        "That it has merged with another fund within the last 5 years to achieve scale"
+      ],
+      "correct": 1,
+      "explanation": "SPS 515 requires RSE licensees to set strategic objectives and maintain a business plan that is explicitly designed to deliver quality outcomes for members. The annual outcomes assessment — mandated by SPS 515 and reinforced by SIS Act requirements — forces licensees to objectively evaluate whether they are meeting members' needs across investment performance, fees, insurance, and services. This standard links closely to SPS 220 (risk management) and CPS 510 (governance), because a board that isn't assessing member outcomes is arguably failing its governance obligations in superannuation."
+    },
+    {
+      "id": "aprgs-025",
+      "type": "matching",
+      "question": "Match each pillar of APRA's prudential framework with its primary focus:",
+      "pairs": [
+        { "left": "Governance", "right": "Board structure, fitness of responsible persons, remuneration design (CPS 510, CPS 511, CPS 520)" },
+        { "left": "Risk Management", "right": "Risk management frameworks, operational resilience, business continuity (CPS 220, CPS 230)" },
+        { "left": "Capital & Financial Soundness", "right": "Minimum capital requirements, liquidity standards, financial strength to absorb losses (APS 110, GPS 110)" },
+        { "left": "Business Operations & Reporting", "right": "Outsourcing, information security, reporting obligations, recovery/exit planning (CPS 234, CPS 190)" },
+        { "left": "Insurance & Superannuation-specific", "right": "Pricing, reserving, member outcomes, strategic planning (GPS 310, SPS 515, SPS 220)" }
+      ],
+      "explanation": "APRA's prudential framework is organised into interconnected pillars, each containing core and supporting standards. Governance standards set the 'who' (qualified people in the right roles), Risk Management sets the 'how' (systems and processes), Capital standards set the 'buffer' (financial resources to absorb shocks), and Business Operations covers the 'what' (daily activities and resilience). Understanding this structure helps governance professionals locate where a particular obligation sits and see how standards within different pillars reinforce each other — for example, CPS 510 governance obligations require the board to oversee the CPS 220 risk management framework."
+    }
+  ]
+}
