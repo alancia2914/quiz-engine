@@ -1,0 +1,36 @@
+```yaml
+name: Update module manifest
+
+on:
+  push:
+    paths:
+      - 'data/**.json'
+      - '!data/manifest.json'
+
+jobs:
+  update-manifest:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate manifest (preserve categories)
+        run: |
+          cd data
+          MODULES=$(ls *.json | grep -v manifest.json | sed 's/\.json$//' | jq -Rn '[inputs]')
+          if [ -f manifest.json ] && jq -e '.categories' manifest.json > /dev/null 2>&1; then
+            CATEGORIES=$(jq '.categories' manifest.json)
+            jq -n --argjson modules "$MODULES" --argjson categories "$CATEGORIES" \
+              '{categories: $categories, modules: $modules}' > manifest.json.tmp
+          else
+            jq -n --argjson modules "$MODULES" '{modules: $modules}' > manifest.json.tmp
+          fi
+          mv manifest.json.tmp manifest.json
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/manifest.json
+          git diff --cached --quiet || (git commit -m "chore: auto-update module manifest" && git push)
